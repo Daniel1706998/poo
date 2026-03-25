@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="he" data-bs-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Warrior Bot Dashboard</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    <!DOCTYPE html>
+    <html lang="he" data-bs-theme="dark">
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Warrior Bot Dashboard</title>
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+      <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+      <script src="https://cdn.socket.io/4.7.2/socket.io.min.js"></script>
+      <style>
+        :root{--bg:#0d1117;--card:#161b22;--border:#30363d;--text:#c9d1d9;--dim:#8b949e;--green:#3fb950;--red:#f85149;--blue:#58a6ff}
+        *{box-sizing:border-box}
+        body{background:var(--bg);color:var(--text);font-size:13px}
+        .card{background:var(--card);border:1px solid var(--border);border-radius:8px}
+        .card-header{background:transparent;border-bottom:1px solid var(--border);font-weight:600;color:var(--dim);font-size:12px;padding:10px 14px}
+        .stat-value{font-size:20px;font-weight:700;font-family:monospace}
+        .dim{color:var(--dim)}
+        .live-dot{width:8px;height:8px;background:var(--green);border-radius:50%;display:inline-block}
+        .table th{font-size:11px;color:var(--dim);border-color:var(--border)}
+        .table td{font-family:monospace;font-size:13px}
+      </style>
+    </head>
+    <body>
+
+    <div class="topbar p-2" style="background:var(--card);border-bottom:1px solid var(--border)">
+      <div class="container-fluid" style="max-width:1300px;display:flex;align-items:center;gap:12px">
+        <div style="font-weight:700;font-size:16px">WARRIOR BOT</div>
+        <span class="live-dot" id="liveDot"></span>
+        <div class="ms-auto dim" id="topTime">--:--:-- IST</div>
+      </div>
+    </div>
+
+    <div class="container-fluid px-3 py-3" style="max-width:1300px">
+
+      <div class="row g-2 mb-3">
+        <div class="col-6 col-md-4 col-xl-3">
+          <div class="card p-3">
+            <div class="dim">Equity</div>
+            <div class="stat-value" id="statEquity">—</div>
+            <div class="dim" id="statAvail">—</div>
+          </div>
+        </div>
+        <div class="col-6 col-md-4 col-xl-3">
+          <div class="card p-3">
+            <div class="dim">Day P&amp;L</div>
+            <div class="stat-value" id="statDayPnl">—</div>
+            <div class="dim" id="statDayPnlPct">—</div>
+          </div>
+        </div>
+        <div class="col-6 col-md-4 col-xl-3">
+          <div class="card p-3">
+            <div class="dim">Trades Today</div>
+            <div class="stat-value" id="statTrades">—</div>
+            <div class="dim" id="statWL">—</div>
+          </div>
+        </div>
+        <div class="col-6 col-md-12 col-xl-3">
+          <div class="card p-3">
+            <div class="dim">Daily Budget Remaining</div>
+            <div class="stat-value" id="statRemaining">—</div>
+            <div class="dim" id="statMaxLoss">—</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row g-2 mb-3">
+        <div class="col-12 col-xl-7">
+          <div class="card">
+            <div class="card-header">Equity Curve</div>
+            <div class="p-3" style="height:260px"><canvas id="equityChart"></canvas></div>
+          </div>
+        </div>
+        <div class="col-12 col-xl-5">
+          <div class="card">
+            <div class="card-header">Open Positions <span class="dim ms-2" id="posCount">0</span></div>
+            <div class="p-2" id="positionsBody" style="max-height:260px;overflow:auto">
+              <div class="dim p-3">Loading…</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card mb-3">
+        <div class="card-header">Trade History</div>
+        <div class="p-2" style="max-height:300px;overflow:auto">
+          <table class="table table-borderless mb-0">
+            <thead><tr><th>Time</th><th>Symbol</th><th>Action</th><th class="text-end">P&L</th></tr></thead>
+            <tbody id="historyBody"><tr><td colspan="4" class="dim text-center py-3">Loading…</td></tr></tbody>
+          </table>
+        </div>
+      </div>
+
+    </div>
+
+    <script>
+    let equityChart;
+    let pnlChart;
+    let socket;
+
+    function initCharts(){
+      const ctx = document.getElementById('equityChart').getContext('2d');
+      equityChart = new Chart(ctx, {
+        type: 'line',
+        data: { labels: [], datasets: [{ label: 'Equity', data: [], borderColor: '#58a6ff', backgroundColor: 'rgba(88,166,255,0.06)', fill:true }]},
+        options: { plugins:{legend:{display:false}}, scales:{x:{display:true}, y:{display:true}} }
+      });
+      // P&L per trade (small inline chart)
+      const pnlCtx = document.createElement('canvas');
+      pnlCtx.width = 400; pnlCtx.height = 120;
+      const pnlContainer = document.createElement('div');
+      pnlContainer.className = 'p-3';
+      pnlContainer.appendChild(pnlCtx);
+      document.getElementById('positionsBody').parentElement.insertAdjacentElement('afterend', pnlContainer);
+      pnlChart = new Chart(pnlCtx.getContext('2d'), {
+        type: 'bar',
+        data: { labels: [], datasets: [{ label: 'P&L', data: [], backgroundColor: '#3fb950' }]},
+        options: { plugins:{legend:{display:false}}, scales:{x:{display:false}} }
+      });
+    }
+
+    async function refreshLive(){
+      try{
+        const d = await fetch('/api/live').then(r=>r.json());
+        document.getElementById('statEquity').textContent = d.balance.equity ? `$${d.balance.equity.toFixed(2)}` : '—';
+        document.getElementById('statAvail').textContent = d.balance.buying_power ? `Buying: $${d.balance.buying_power.toFixed(2)}` : '';
+        document.getElementById('statDayPnl').textContent = d.day_stats ? `$${d.day_stats.pnl.toFixed(2)}` : '—';
+        document.getElementById('statRemaining').textContent = d.day_stats ? `$${d.day_stats.remaining.toFixed(2)}` : '—';
+        document.getElementById('statMaxLoss').textContent = d.day_stats ? `Limit: $${d.day_stats.max_loss}` : '';
+        document.getElementById('topTime').textContent = d.timestamp || '--:--:--';
+
+        // positions
+        const posBody = document.getElementById('positionsBody'); posBody.innerHTML='';
+        if(d.positions && d.positions.length){
+          const table = document.createElement('table'); table.className='table mb-0';
+          table.innerHTML = '<thead><tr><th>Symbol</th><th>Qty</th><th class="text-end">Cur</th><th class="text-end">P&L</th></tr></thead>';
+          const tbody = document.createElement('tbody');
+          d.positions.forEach(p=>{
+            const tr = document.createElement('tr');
+            tr.innerHTML = `<td>${p.symbol}</td><td>${p.qty}</td><td class='text-end'>${p.current_price}</td><td class='text-end'>${p.live_pnl}</td>`;
+            tbody.appendChild(tr);
+          });
+          table.appendChild(tbody); posBody.appendChild(table);
+        } else {
+          posBody.innerHTML = '<div class="dim p-3">No open positions</div>';
+        }
+        document.getElementById('posCount').textContent = d.positions ? d.positions.length : 0;
+      }catch(e){console.error(e)}
+    }
+
+    function setupSocket(){
+      try{
+        socket = io();
+        socket.on('connect', ()=>{ console.log('socket connected'); });
+        socket.on('live_update', (d)=>{
+          // update small live pieces
+          if(d.balance){
+            document.getElementById('statEquity').textContent = d.balance.equity ? `$${d.balance.equity.toFixed(2)}` : '—';
+          }
+          if(d.equity_curve){
+            equityChart.data.labels = d.equity_curve.map(p=>p.datetime);
+            equityChart.data.datasets[0].data = d.equity_curve.map(p=>p.pnl);
+            equityChart.update();
+          }
+          if(d.recent_trades){
+            pnlChart.data.labels = d.recent_trades.map((t,i)=>i+1);
+            pnlChart.data.datasets[0].data = d.recent_trades.map(t=>t.trade_pnl);
+            pnlChart.update();
+          }
+        });
+        socket.on('new_trade', (t)=>{
+          // prepend to history
+          const body = document.getElementById('historyBody');
+          const tr = document.createElement('tr');
+          tr.innerHTML = `<td>${t.datetime.slice(11,19)}</td><td>${t.symbol}</td><td>${t.action}</td><td class='text-end'>${Number(t.pnl||0).toFixed(2)}</td>`;
+          body.prepend(tr);
+        });
+      }catch(e){console.warn('Socket not available', e)}
+    }
+
+    async function loadTrades(){
+      try{
+        const list = await fetch('/api/trades').then(r=>r.json());
+        const body = document.getElementById('historyBody'); body.innerHTML='';
+        if(list && list.length){
+          list.slice().reverse().forEach(t=>{
+            const tr = document.createElement('tr');
+            tr.innerHTML = `<td>${t.datetime.slice(11,19)}</td><td>${t.symbol}</td><td>${t.action}</td><td class='text-end'>${Number(t.pnl||0).toFixed(2)}</td>`;
+            body.appendChild(tr);
+          });
+        } else body.innerHTML = '<tr><td colspan="4" class="dim text-center py-3">No trades yet</td></tr>';
+      }catch(e){console.error(e)}
+    }
+
+    async function loadEquityCurve(){
+      try{
+        const data = await fetch('/api/equity').then(r=>r.json());
+        const labels = data.map(d=>d.datetime);
+        const values = data.map(d=>d.pnl);
+        equityChart.data.labels = labels; equityChart.data.datasets[0].data = values; equityChart.update();
+      }catch(e){console.error(e)}
+    }
+
+    document.addEventListener('DOMContentLoaded', ()=>{
+      initCharts(); refreshLive(); loadTrades(); loadEquityCurve();
+      setupSocket();
+      setInterval(refreshLive, 5000);
+      setInterval(loadTrades, 15000);
+      setInterval(loadEquityCurve, 15000);
+    });
+    </script>
+
+    </body>
+    </html>

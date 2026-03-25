@@ -1,0 +1,279 @@
+//@version=5
+strategy("Ross Cameron Warrior Strategy", overlay=true, default_qty_type=strategy.percent_of_equity, default_qty_value=100, initial_capital=25000, commission_type=strategy.commission.percent, commission_value=0.05, slippage=1, pyramiding=1)
+
+// ============================================================================
+// INPUTS
+// ============================================================================
+
+// --- Scanner Filters (5 Pillars) ---
+minRVOL      = input.float(5.0, "Pillar 1: Min Relative Volume (x)", minval=1.0, step=0.5, group="5 Pillars")
+minChangePct = input.float(10.0, "Pillar 2: Min Price Change %", minval=1.0, group="5 Pillars")
+minPrice     = input.float(1.0, "Pillar 4: Min Price ($)", minval=0.1, group="5 Pillars")
+maxPrice     = input.float(20.0, "Pillar 4: Max Price ($)", minval=5.0, group="5 Pillars")
+volLookback  = input.int(30, "Volume Avg Lookback (days)", minval=5, maxval=100, group="5 Pillars")
+
+// --- EMA Settings ---
+emaFast  = input.int(9, "EMA Fast (gray)", group="Indicators")
+emaSlow  = input.int(20, "EMA Slow (blue)", group="Indicators")
+emaTrend = input.int(200, "EMA Trend", group="Indicators")
+
+// --- Pattern Selection ---
+enableGapAndGo    = input.bool(true, "Gap and Go", group="Patterns")
+enableBullFlag    = input.bool(true, "Bull Flag", group="Patterns")
+enableORB         = input.bool(true, "Opening Range Breakout (ORB)", group="Patterns")
+enableRedToGreen  = input.bool(true, "Red-to-Green Move", group="Patterns")
+enableVWAPReclaim = input.bool(true, "VWAP Reclaim", group="Patterns")
+orbMinutes        = input.int(5, "ORB Period (bars)", minval=2, maxval=30, group="Patterns")
+gapMinPct         = input.float(10.0, "Gap Min %", minval=1.0, step=1.0, group="Patterns")
+flagMaxRetrace    = input.float(0.50, "Flag Max Retrace", minval=0.2, maxval=0.8, step=0.05, group="Patterns")
+
+// --- Risk Management ---
+stopCents      = input.float(0.20, "Default Stop ($ from entry)", minval=0.05, step=0.05, group="Risk")
+rewardRisk     = input.float(2.0, "Reward:Risk Ratio", minval=1.0, step=0.5, group="Risk")
+
+// --- Trade Management ---
+stallBars    = input.int(5, "Stall Exit After N Bars", minval=2, maxval=30, group="Management")
+cooldownBars = input.int(3, "Cooldown Bars After Exit", minval=1, maxval=20, group="Management")
+
+// --- Session Filter ---
+useSessionFilter = input.bool(true, "Only Trade 9:30-11:30 ET", group="Session")
+
+// ============================================================================
+// INDICATORS
+// ============================================================================
+
+ema9   = ta.ema(close, emaFast)
+ema20  = ta.ema(close, emaSlow)
+ema200 = ta.ema(close, emaTrend)
+vwapValue = ta.vwap(hlc3)
+
+avgVol      = ta.sma(volume, volLookback)
+relativeVol = avgVol > 0 ? volume / avgVol : 0.0
+volSpike    = relativeVol >= 2.0
+volStrong   = relativeVol >= minRVOL
+
+prevClose    = request.security(syminfo.tickerid, "D", close[1], lookahead=barmerge.lookahead_on)
+gapPct       = prevClose > 0 ? ((open - prevClose) / prevClose) * 100.0 : 0.0
+dayChangePct = prevClose > 0 ? ((close - prevClose) / prevClose) * 100.0 : 0.0
+
+// ============================================================================
+// PLOT INDICATORS
+// ============================================================================
+
+plot(ema9, "EMA 9", color=color.gray, linewidth=1)
+plot(ema20, "EMA 20", color=color.blue, linewidth=1)
+plot(ema200, "EMA 200", color=color.orange, linewidth=2)
+plot(vwapValue, "VWAP", color=color.purple, linewidth=2, style=plot.style_stepline)
+
+// ============================================================================
+// SESSION + SCANNER FILTER
+// ============================================================================
+
+inSession = useSessionFilter ? not na(time(timeframe.period, "0930-1130:23456", "America/New_York")) : true
+
+pillar1_rvol   = relativeVol >= minRVOL
+pillar2_change = dayChangePct >= minChangePct
+pillar4_price  = close >= minPrice and close <= maxPrice
+pillarsPassed  = (pillar1_rvol ? 1 : 0) + (pillar2_change ? 1 : 0) + (pillar4_price ? 1 : 0)
+passesScanner  = pillar1_rvol and pillar2_change and pillar4_price
+
+// ============================================================================
+// PATTERN 1: GAP AND GO
+// ============================================================================
+
+hasGap = gapPct >= gapMinPct
+
+var float firstCandleHigh = na
+var float firstCandleLow  = na
+var float orbHigh_val     = na
+var float orbLow_val      = na
+var int   barsFromOpen     = 0
+
+if session.isfirstbar
+    firstCandleHigh := high
+    firstCandleLow  := low
+    orbHigh_val     := high
+    orbLow_val      := low
+    barsFromOpen    := 0
+else
+    barsFromOpen += 1
+
+if barsFromOpen < orbMinutes and not na(orbHigh_val)
+    orbHigh_val := math.max(orbHigh_val, high)
+    orbLow_val  := math.min(orbLow_val, low)
+
+gapAndGoSignal = enableGapAndGo and hasGap and not na(firstCandleHigh) and close > firstCandleHigh and close > vwapValue and volSpike and barsFromOpen >= 1
+
+gapGoConf   = math.min(0.60 + (close > firstCandleHigh ? 0.20 : 0.0) + (close > vwapValue ? 0.10 : 0.0) + (gapPct >= 20 ? 0.10 : 0.0), 1.0)
+gapGoStop   = nz(firstCandleLow, close) - 0.05
+gapGoTarget = close + (close - gapGoStop) * rewardRisk
+
+// ============================================================================
+// PATTERN 2: BULL FLAG
+// ============================================================================
+
+isPole = close[6] > open[6] and close[5] > open[5] and close[4] > open[4]
+poleHigh   = isPole ? math.max(high[6], high[5], high[4]) : na
+poleLow    = isPole ? low[6] : na
+poleHeight = isPole ? poleHigh - poleLow : na
+
+fHigh    = isPole ? math.max(high[3], high[2], high[1]) : na
+fLow     = isPole ? math.min(low[3], low[2], low[1]) : na
+fRetrace = isPole and poleHeight > 0 ? (poleHigh - fLow) / poleHeight : 1.0
+
+fRedCount = (close[3] <= open[3] ? 1 : 0) + (close[2] <= open[2] ? 1 : 0) + (close[1] <= open[1] ? 1 : 0)
+
+bullFlagSignal = enableBullFlag and isPole and fRetrace < flagMaxRetrace and fRedCount >= 1 and close > fHigh and volSpike
+
+bullFlagConf   = math.min(0.65 + (isPole and poleHeight > 0 and (fHigh - fLow) / poleHeight < 0.30 ? 0.15 : 0.0) + (fRedCount >= 3 ? 0.10 : 0.0) + (close > vwapValue ? 0.05 : 0.0), 1.0)
+bullFlagStop   = nz(fLow, close) - 0.05
+bullFlagTarget = close + (close - bullFlagStop) * rewardRisk
+
+// ============================================================================
+// PATTERN 3: OPENING RANGE BREAKOUT (ORB)
+// ============================================================================
+
+orbReady    = barsFromOpen >= orbMinutes and not na(orbHigh_val)
+orbBreakout = enableORB and orbReady and close > orbHigh_val and volume > avgVol * 1.5
+
+orbConf   = math.max(0.60 + (volume > avgVol * 1.5 ? 0.15 : 0.0) - (close > orbHigh_val * 1.02 ? 0.10 : 0.0), 0.30)
+orbStop   = nz(orbLow_val, close) - 0.05
+orbTarget = close + (close - orbStop) * rewardRisk
+
+// ============================================================================
+// PATTERN 4: RED-TO-GREEN MOVE
+// ============================================================================
+
+wasRed   = not na(prevClose) and close[1] < prevClose
+isGreen  = not na(prevClose) and close > prevClose
+r2gCross = enableRedToGreen and wasRed and isGreen and volume > avgVol * 2.0
+
+r2gConf   = math.min(0.55 + (volume > avgVol * 2.0 ? 0.20 : 0.0) + (close > vwapValue ? 0.10 : 0.0), 1.0)
+r2gStop   = not na(prevClose) ? math.min(vwapValue, prevClose) - 0.10 : close - stopCents
+r2gTarget = close + (close - r2gStop) * rewardRisk
+
+// ============================================================================
+// PATTERN 5: VWAP RECLAIM
+// ============================================================================
+
+vwapReclaim = enableVWAPReclaim and close[1] < vwapValue[1] and close > vwapValue and volume > avgVol * 2.0
+
+vwapConf   = 0.65
+vwapStop   = vwapValue - 0.10
+vwapTarget = close + (close - vwapStop) * rewardRisk
+
+// ============================================================================
+// SIGNAL AGGREGATION (highest confidence wins)
+// ============================================================================
+
+float bestConf   = 0.0
+string bestSetup = ""
+float bestStop   = close - stopCents
+float bestTarget = close + stopCents * rewardRisk
+
+if gapAndGoSignal and gapGoConf > bestConf
+    bestConf := gapGoConf
+    bestSetup := "Gap&Go"
+    bestStop := gapGoStop
+    bestTarget := gapGoTarget
+
+if bullFlagSignal and bullFlagConf > bestConf
+    bestConf := bullFlagConf
+    bestSetup := "Bull Flag"
+    bestStop := bullFlagStop
+    bestTarget := bullFlagTarget
+
+if orbBreakout and orbConf > bestConf
+    bestConf := orbConf
+    bestSetup := "ORB"
+    bestStop := orbStop
+    bestTarget := orbTarget
+
+if r2gCross and r2gConf > bestConf
+    bestConf := r2gConf
+    bestSetup := "Red>Green"
+    bestStop := r2gStop
+    bestTarget := r2gTarget
+
+if vwapReclaim and vwapConf > bestConf
+    bestConf := vwapConf
+    bestSetup := "VWAP Rcl"
+    bestStop := vwapStop
+    bestTarget := vwapTarget
+
+// ============================================================================
+// ENTRY / EXIT
+// ============================================================================
+
+var int lastExitBar = -cooldownBars - 1
+cooldownOk = (bar_index - lastExitBar) >= cooldownBars
+
+validRisk  = bestStop < close and (close - bestStop) > 0.01
+entrySignal = bestConf >= 0.60 and passesScanner and inSession and cooldownOk and strategy.position_size == 0 and validRisk
+
+if entrySignal
+    strategy.entry("Long", strategy.long, comment=bestSetup)
+    strategy.exit("TP/SL", "Long", limit=bestTarget, stop=bestStop)
+
+// Stall exit
+barsInTrade = strategy.position_size > 0 ? bar_index - strategy.opentrades.entry_bar_index(0) : 0
+
+if strategy.position_size > 0 and barsInTrade > stallBars and close < strategy.opentrades.entry_price(0)
+    strategy.close("Long", comment="STALL")
+    lastExitBar := bar_index
+
+// EOD exit (Ross NEVER holds overnight)
+isMarketClose = not na(time(timeframe.period, "1555-1600:23456", "America/New_York"))
+if strategy.position_size > 0 and isMarketClose
+    strategy.close("Long", comment="EOD")
+    lastExitBar := bar_index
+
+if strategy.position_size == 0 and strategy.position_size[1] > 0
+    lastExitBar := bar_index
+
+// Trail stop after target hit
+if strategy.position_size > 0 and close >= bestTarget
+    trailStop = ta.lowest(low, 3) - 0.05
+    if trailStop > bestStop
+        strategy.exit("Trail", "Long", stop=trailStop)
+
+// ============================================================================
+// VISUALIZATION
+// ============================================================================
+
+plotshape(entrySignal, "Entry", shape.triangleup, location.belowbar, color.green, size=size.small)
+bgcolor(volStrong ? color.new(color.yellow, 92) : na, title="High RVOL")
+bgcolor(inSession and useSessionFilter ? color.new(color.green, 96) : na, title="Session")
+
+// ORB range
+orbHighLine = plot(orbReady ? orbHigh_val : na, "ORB High", color=color.new(color.blue, 50), style=plot.style_linebr)
+orbLowLine  = plot(orbReady ? orbLow_val : na, "ORB Low", color=color.new(color.blue, 50), style=plot.style_linebr)
+fill(orbHighLine, orbLowLine, color=color.new(color.blue, 88), title="ORB Range")
+
+if entrySignal
+    label.new(bar_index, low, bestSetup + "\n" + str.tostring(math.round(bestConf * 100)) + "% | RVOL " + str.tostring(math.round(relativeVol, 1)) + "x\nR:R " + str.tostring(rewardRisk, "#.#") + ":1", style=label.style_label_up, color=color.green, textcolor=color.white, size=size.small)
+
+// ============================================================================
+// INFO TABLE
+// ============================================================================
+
+var table infoTable = table.new(position.top_right, 2, 8, bgcolor=color.new(color.black, 80), border_width=1)
+
+if barstate.islast
+    table.cell(infoTable, 0, 0, "WARRIOR", text_color=color.yellow, text_size=size.small)
+    table.cell(infoTable, 1, 0, "Ross Cameron", text_color=color.yellow, text_size=size.small)
+    table.cell(infoTable, 0, 1, "RVOL", text_color=color.white, text_size=size.small)
+    table.cell(infoTable, 1, 1, str.tostring(math.round(relativeVol, 1)) + "x", text_color=pillar1_rvol ? color.lime : color.red, text_size=size.small)
+    table.cell(infoTable, 0, 2, "Change %", text_color=color.white, text_size=size.small)
+    table.cell(infoTable, 1, 2, str.tostring(math.round(dayChangePct, 1)) + "%", text_color=pillar2_change ? color.lime : color.red, text_size=size.small)
+    table.cell(infoTable, 0, 3, "Price", text_color=color.white, text_size=size.small)
+    table.cell(infoTable, 1, 3, "$" + str.tostring(math.round(close, 2)), text_color=pillar4_price ? color.lime : color.red, text_size=size.small)
+    table.cell(infoTable, 0, 4, "Gap %", text_color=color.white, text_size=size.small)
+    table.cell(infoTable, 1, 4, str.tostring(math.round(gapPct, 1)) + "%", text_color=gapPct >= gapMinPct ? color.lime : color.gray, text_size=size.small)
+    table.cell(infoTable, 0, 5, "VWAP", text_color=color.white, text_size=size.small)
+    table.cell(infoTable, 1, 5, close > vwapValue ? "ABOVE" : "BELOW", text_color=close > vwapValue ? color.lime : color.red, text_size=size.small)
+    table.cell(infoTable, 0, 6, "Session", text_color=color.white, text_size=size.small)
+    table.cell(infoTable, 1, 6, inSession ? "ACTIVE" : "CLOSED", text_color=inSession ? color.lime : color.red, text_size=size.small)
+    posStr = strategy.position_size > 0 ? "LONG" : "FLAT"
+    table.cell(infoTable, 0, 7, "Position", text_color=color.white, text_size=size.small)
+    table.cell(infoTable, 1, 7, posStr, text_color=strategy.position_size > 0 ? color.lime : color.gray, text_size=size.small)

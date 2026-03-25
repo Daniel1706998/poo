@@ -1,0 +1,1010 @@
+/Users/user/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+2026-02-23 01:56:53,396 [INFO] broker: Broker initialized (Paper Trading mode)
+2026-02-23 01:56:53,396 [INFO] broker: Broker initialized (Paper Trading mode)
+2026-02-23 01:56:53,396 [INFO] warrior_bot: ============================================================
+2026-02-23 01:56:53,396 [INFO] warrior_bot: ============================================================
+2026-02-23 01:56:53,396 [INFO] warrior_bot:   WARRIOR TRADING BOT — STARTING
+2026-02-23 01:56:53,396 [INFO] warrior_bot:   WARRIOR TRADING BOT — STARTING
+2026-02-23 01:56:53,396 [INFO] warrior_bot:   Strategy: Ross Cameron Gap & Go Momentum
+2026-02-23 01:56:53,396 [INFO] warrior_bot:   Strategy: Ross Cameron Gap & Go Momentum
+2026-02-23 01:56:53,396 [INFO] warrior_bot:   Max daily loss: $500.0
+2026-02-23 01:56:53,396 [INFO] warrior_bot:   Max daily loss: $500.0
+2026-02-23 01:56:53,396 [INFO] warrior_bot:   Max risk/trade: $100.0
+2026-02-23 01:56:53,396 [INFO] warrior_bot:   Max risk/trade: $100.0
+2026-02-23 01:56:53,396 [INFO] warrior_bot:   Mode: PAPER TRADING (no real money)
+2026-02-23 01:56:53,396 [INFO] warrior_bot:   Mode: PAPER TRADING (no real money)
+2026-02-23 01:56:53,396 [INFO] warrior_bot: ============================================================
+2026-02-23 01:56:53,396 [INFO] warrior_bot: ============================================================
+2026-02-23 01:56:53,973 [INFO] warrior_bot: Bot scheduled. Waiting for 7:00 AM ET...
+2026-02-23 01:56:53,973 [INFO] warrior_bot: Bot scheduled. Waiting for 7:00 AM ET...
+2026-02-23 01:56:53,973 [INFO] warrior_bot: (Press Ctrl+C to stop)
+
+2026-02-23 01:56:53,973 [INFO] warrior_bot: (Press Ctrl+C to stop)
+
+/Users/user/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+2026-02-23 02:02:41,089 [INFO] broker: Broker initialized (Paper Trading mode)
+2026-02-23 02:02:41,089 [INFO] broker: Broker initialized (Paper Trading mode)
+2026-02-23 02:02:41,089 [INFO] warrior_bot: ============================================================
+2026-02-23 02:02:41,089 [INFO] warrior_bot: ============================================================
+2026-02-23 02:02:41,090 [INFO] warrior_bot:   WARRIOR TRADING BOT — STARTING
+2026-02-23 02:02:41,090 [INFO] warrior_bot:   WARRIOR TRADING BOT — STARTING
+2026-02-23 02:02:41,090 [INFO] warrior_bot:   Strategy: Ross Cameron Gap & Go Momentum
+2026-02-23 02:02:41,090 [INFO] warrior_bot:   Strategy: Ross Cameron Gap & Go Momentum
+2026-02-23 02:02:41,090 [INFO] warrior_bot:   Max daily loss: $500.0
+2026-02-23 02:02:41,090 [INFO] warrior_bot:   Max daily loss: $500.0
+2026-02-23 02:02:41,090 [INFO] warrior_bot:   Max risk/trade: $100.0
+2026-02-23 02:02:41,090 [INFO] warrior_bot:   Max risk/trade: $100.0
+2026-02-23 02:02:41,090 [INFO] warrior_bot:   Mode: PAPER TRADING (no real money)
+2026-02-23 02:02:41,090 [INFO] warrior_bot:   Mode: PAPER TRADING (no real money)
+2026-02-23 02:02:41,090 [INFO] warrior_bot: ============================================================
+2026-02-23 02:02:41,090 [INFO] warrior_bot: ============================================================
+2026-02-23 02:02:41,639 [INFO] warrior_bot: Bot scheduled. Waiting for 14:00 IST (7:00 AM ET)...
+2026-02-23 02:02:41,639 [INFO] warrior_bot: Bot scheduled. Waiting for 14:00 IST (7:00 AM ET)...
+2026-02-23 02:02:41,639 [INFO] warrior_bot: (Press Ctrl+C to stop)
+
+2026-02-23 02:02:41,639 [INFO] warrior_bot: (Press Ctrl+C to stop)
+
+2026-02-23 02:18:51,258 [INFO] broker: Broker initialized (Paper Trading mode)
+2026-02-23 02:18:51,258 [INFO] warrior_bot: ============================================================
+2026-02-23 02:18:51,258 [INFO] warrior_bot:   WARRIOR TRADING BOT — STARTING
+2026-02-23 02:18:51,258 [INFO] warrior_bot:   Strategy: Ross Cameron Gap & Go Momentum
+2026-02-23 02:18:51,258 [INFO] warrior_bot:   Max daily loss: $500.0
+2026-02-23 02:18:51,258 [INFO] warrior_bot:   Max risk/trade: $100.0
+2026-02-23 02:18:51,258 [INFO] warrior_bot:   Mode: PAPER TRADING (no real money)
+2026-02-23 02:18:51,258 [INFO] warrior_bot: ============================================================
+2026-02-23 02:18:51,832 [INFO] warrior_bot: Bot scheduled. Waiting for 14:00 IST (7:00 AM ET)...
+2026-02-23 02:18:51,832 [INFO] warrior_bot: (Press Ctrl+C to stop)
+
+2026-02-23 02:25:29,190 [INFO] broker: Broker initialized (Paper Trading mode)
+2026-02-23 02:25:29,190 [INFO] warrior_bot: ============================================================
+2026-02-23 02:25:29,190 [INFO] warrior_bot:   WARRIOR TRADING BOT — STARTING
+2026-02-23 02:25:29,190 [INFO] warrior_bot:   Strategy: Ross Cameron Gap & Go Momentum
+2026-02-23 02:25:29,190 [INFO] warrior_bot:   Max daily loss: $500.0
+2026-02-23 02:25:29,190 [INFO] warrior_bot:   Max risk/trade: $100.0
+2026-02-23 02:25:29,190 [INFO] warrior_bot:   Mode: PAPER TRADING (no real money)
+2026-02-23 02:25:29,190 [INFO] warrior_bot: ============================================================
+2026-02-23 02:25:29,826 [INFO] warrior_bot: Bot scheduled. Waiting for 14:00 IST (7:00 AM ET)...
+2026-02-23 02:25:29,826 [INFO] warrior_bot: (Press Ctrl+C to stop)
+
+2026-02-23 02:36:49,631 [INFO] broker: Broker initialized (Paper Trading mode)
+2026-02-23 02:36:49,631 [INFO] warrior_bot: ============================================================
+2026-02-23 02:36:49,631 [INFO] warrior_bot:   WARRIOR TRADING BOT — STARTING
+2026-02-23 02:36:49,631 [INFO] warrior_bot:   Strategy: Ross Cameron Gap & Go Momentum
+2026-02-23 02:36:49,631 [INFO] warrior_bot:   Max daily loss: $500.0
+2026-02-23 02:36:49,631 [INFO] warrior_bot:   Max risk/trade: $100.0
+2026-02-23 02:36:49,631 [INFO] warrior_bot:   Mode: PAPER TRADING (no real money)
+2026-02-23 02:36:49,631 [INFO] warrior_bot: ============================================================
+2026-02-23 02:36:50,195 [INFO] warrior_bot: Bot scheduled. Waiting for 14:00 IST (7:00 AM ET)...
+2026-02-23 02:36:50,195 [INFO] warrior_bot: (Press Ctrl+C to stop)
+
+2026-02-23 02:39:52,457 [INFO] broker: Broker initialized (Paper Trading mode)
+2026-02-23 02:39:52,457 [INFO] warrior_bot: ============================================================
+2026-02-23 02:39:52,457 [INFO] warrior_bot:   WARRIOR TRADING BOT — STARTING
+2026-02-23 02:39:52,457 [INFO] warrior_bot:   Strategy: Ross Cameron Gap & Go Momentum
+2026-02-23 02:39:52,457 [INFO] warrior_bot:   Max daily loss: $500.0
+2026-02-23 02:39:52,457 [INFO] warrior_bot:   Max risk/trade: $100.0
+2026-02-23 02:39:52,457 [INFO] warrior_bot:   Mode: PAPER TRADING (no real money)
+2026-02-23 02:39:52,457 [INFO] warrior_bot: ============================================================
+2026-02-23 02:39:53,005 [INFO] warrior_bot: Bot scheduled. Waiting for 14:00 IST (7:00 AM ET)...
+2026-02-23 02:39:53,006 [INFO] warrior_bot: (Press Ctrl+C to stop)
+
+2026-02-23 02:44:08,741 [INFO] broker: Broker initialized (Paper Trading mode)
+2026-02-23 02:44:08,741 [INFO] warrior_bot: ============================================================
+2026-02-23 02:44:08,741 [INFO] warrior_bot:   WARRIOR TRADING BOT — STARTING
+2026-02-23 02:44:08,741 [INFO] warrior_bot:   Strategy: Ross Cameron Gap & Go Momentum
+2026-02-23 02:44:08,741 [INFO] warrior_bot:   Max daily loss: $500.0
+2026-02-23 02:44:08,741 [INFO] warrior_bot:   Max risk/trade: $100.0
+2026-02-23 02:44:08,742 [INFO] warrior_bot:   Mode: PAPER TRADING (no real money)
+2026-02-23 02:44:08,742 [INFO] warrior_bot: ============================================================
+2026-02-23 02:44:09,316 [INFO] warrior_bot: Bot scheduled. Waiting for 14:00 IST (7:00 AM ET)...
+2026-02-23 02:44:09,316 [INFO] warrior_bot: (Press Ctrl+C to stop)
+
+2026-02-23 02:48:29,679 [INFO] broker: Broker initialized (Paper Trading mode)
+2026-02-23 02:48:29,679 [INFO] warrior_bot: ============================================================
+2026-02-23 02:48:29,679 [INFO] warrior_bot:   WARRIOR TRADING BOT — STARTING
+2026-02-23 02:48:29,679 [INFO] warrior_bot:   Strategy: Ross Cameron Gap & Go Momentum
+2026-02-23 02:48:29,679 [INFO] warrior_bot:   Max daily loss: $500.0
+2026-02-23 02:48:29,679 [INFO] warrior_bot:   Max risk/trade: $100.0
+2026-02-23 02:48:29,679 [INFO] warrior_bot:   Mode: PAPER TRADING (no real money)
+2026-02-23 02:48:29,680 [INFO] warrior_bot: ============================================================
+2026-02-23 02:48:30,224 [INFO] warrior_bot: Bot scheduled. Waiting for 14:00 IST (7:00 AM ET)...
+2026-02-23 02:48:30,224 [INFO] warrior_bot: (Press Ctrl+C to stop)
+
+2026-02-23 02:51:36,971 [INFO] broker: Broker initialized (Paper Trading mode)
+2026-02-23 02:51:36,971 [INFO] warrior_bot: ============================================================
+2026-02-23 02:51:36,971 [INFO] warrior_bot:   WARRIOR TRADING BOT — STARTING
+2026-02-23 02:51:36,971 [INFO] warrior_bot:   Strategy: Ross Cameron Gap & Go Momentum
+2026-02-23 02:51:36,971 [INFO] warrior_bot:   Max daily loss: $500.0
+2026-02-23 02:51:36,971 [INFO] warrior_bot:   Max risk/trade: $100.0
+2026-02-23 02:51:36,971 [INFO] warrior_bot:   Mode: PAPER TRADING (no real money)
+2026-02-23 02:51:36,972 [INFO] warrior_bot: ============================================================
+2026-02-23 02:51:37,531 [INFO] warrior_bot: Bot scheduled. Waiting for 14:00 IST (7:00 AM ET)...
+2026-02-23 02:51:37,531 [INFO] warrior_bot: (Press Ctrl+C to stop)
+
+2026-02-23 02:54:14,376 [INFO] broker: Broker initialized (Paper Trading mode)
+2026-02-23 02:54:14,376 [INFO] warrior_bot: ============================================================
+2026-02-23 02:54:14,376 [INFO] warrior_bot:   WARRIOR TRADING BOT — STARTING
+2026-02-23 02:54:14,376 [INFO] warrior_bot:   Strategy: Ross Cameron Gap & Go Momentum
+2026-02-23 02:54:14,376 [INFO] warrior_bot:   Max daily loss: $500.0
+2026-02-23 02:54:14,376 [INFO] warrior_bot:   Max risk/trade: $100.0
+2026-02-23 02:54:14,376 [INFO] warrior_bot:   Mode: PAPER TRADING (no real money)
+2026-02-23 02:54:14,376 [INFO] warrior_bot: ============================================================
+2026-02-23 02:54:14,922 [INFO] warrior_bot: Bot scheduled. Waiting for 14:00 IST (7:00 AM ET)...
+2026-02-23 02:54:14,922 [INFO] warrior_bot: (Press Ctrl+C to stop)
+
+2026-02-23 02:59:39,519 [INFO] broker: Broker initialized (Paper Trading mode)
+2026-02-23 02:59:39,519 [INFO] warrior_bot: ============================================================
+2026-02-23 02:59:39,519 [INFO] warrior_bot:   WARRIOR TRADING BOT — STARTING
+2026-02-23 02:59:39,519 [INFO] warrior_bot:   Strategy: Ross Cameron Gap & Go Momentum
+2026-02-23 02:59:39,519 [INFO] warrior_bot:   Max daily loss: $500.0
+2026-02-23 02:59:39,519 [INFO] warrior_bot:   Max risk/trade: $100.0
+2026-02-23 02:59:39,519 [INFO] warrior_bot:   Mode: PAPER TRADING (no real money)
+2026-02-23 02:59:39,519 [INFO] warrior_bot: ============================================================
+2026-02-23 02:59:40,100 [INFO] warrior_bot: Bot scheduled. Waiting for 14:00 IST (7:00 AM ET)...
+2026-02-23 02:59:40,100 [INFO] warrior_bot: (Press Ctrl+C to stop)
+
+2026-02-23 16:46:10,828 [INFO] broker: Broker initialized (Paper Trading mode)
+2026-02-23 16:46:10,829 [INFO] warrior_bot: ============================================================
+2026-02-23 16:46:10,829 [INFO] warrior_bot:   WARRIOR TRADING BOT — STARTING
+2026-02-23 16:46:10,829 [INFO] warrior_bot:   Strategy: Ross Cameron Gap & Go Momentum
+2026-02-23 16:46:10,829 [INFO] warrior_bot:   Max daily loss: $500.0
+2026-02-23 16:46:10,829 [INFO] warrior_bot:   Max risk/trade: $100.0
+2026-02-23 16:46:10,829 [INFO] warrior_bot:   Mode: PAPER TRADING (no real money)
+2026-02-23 16:46:10,829 [INFO] warrior_bot: ============================================================
+2026-02-23 16:46:11,517 [INFO] warrior_bot: Bot scheduled. Waiting for 14:00 IST (7:00 AM ET)...
+2026-02-23 16:46:11,518 [INFO] warrior_bot: (Press Ctrl+C to stop)
+
+2026-02-23 16:46:24,178 [INFO] broker: Broker initialized (Paper Trading mode)
+2026-02-23 16:46:24,178 [INFO] warrior_bot: ============================================================
+2026-02-23 16:46:24,178 [INFO] warrior_bot:   WARRIOR TRADING BOT — STARTING
+2026-02-23 16:46:24,178 [INFO] warrior_bot:   Strategy: Ross Cameron Gap & Go Momentum
+2026-02-23 16:46:24,178 [INFO] warrior_bot:   Max daily loss: $500.0
+2026-02-23 16:46:24,178 [INFO] warrior_bot:   Max risk/trade: $100.0
+2026-02-23 16:46:24,178 [INFO] warrior_bot:   Mode: PAPER TRADING (no real money)
+2026-02-23 16:46:24,178 [INFO] warrior_bot: ============================================================
+2026-02-23 16:46:24,744 [INFO] warrior_bot: Bot scheduled. Waiting for 14:00 IST (7:00 AM ET)...
+2026-02-23 16:46:24,744 [INFO] warrior_bot: (Press Ctrl+C to stop)
+
+/Users/user/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+2026-02-24 13:43:28,747 [INFO] broker: Broker initialized (Paper Trading mode)
+2026-02-24 13:43:28,747 [INFO] warrior_bot: ============================================================
+2026-02-24 13:43:28,747 [INFO] warrior_bot:   WARRIOR TRADING BOT — STARTING
+2026-02-24 13:43:28,747 [INFO] warrior_bot:   Strategy: Ross Cameron Gap & Go Momentum
+2026-02-24 13:43:28,747 [INFO] warrior_bot:   Max daily loss: $500.0
+2026-02-24 13:43:28,747 [INFO] warrior_bot:   Max risk/trade: $100.0
+2026-02-24 13:43:28,747 [INFO] warrior_bot:   Mode: PAPER TRADING (no real money)
+2026-02-24 13:43:28,747 [INFO] warrior_bot: ============================================================
+2026-02-24 13:43:29,350 [INFO] warrior_bot: Bot scheduled. Waiting for 14:00 IST (7:00 AM ET)...
+2026-02-24 13:43:29,350 [INFO] warrior_bot: (Press Ctrl+C to stop)
+
+2026-02-24 14:00:00,007 [INFO] warrior_bot: ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-02-24 14:00:00,010 [INFO] warrior_bot:   7:00 AM — PRE-MARKET SCAN
+2026-02-24 14:00:00,010 [INFO] warrior_bot: ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-02-24 14:00:00,010 [INFO] strategy: === PRE-MARKET ROUTINE START ===
+2026-02-24 14:00:00,010 [INFO] risk_manager: New trading day. Max daily loss: $500 | Max risk/trade: $100
+2026-02-24 14:00:00,011 [INFO] scanner: Starting pre-market gapper scan...
+2026-02-24 14:00:01,586 [INFO] scanner: Universe: 10271 tradeable symbols
+2026-02-24 14:00:02,298 [WARNING] data_feed: Bulk snapshot failed: 'Snapshot' object has no attribute 'prev_daily_bar'
+2026-02-24 14:00:02,453 [WARNING] data_feed: Bulk snapshot failed: 'Snapshot' object has no attribute 'prev_daily_bar'
+2026-02-24 14:00:02,612 [WARNING] data_feed: Bulk snapshot failed: 'Snapshot' object has no attribute 'prev_daily_bar'
+2026-02-24 14:00:02,764 [WARNING] data_feed: Bulk snapshot failed: 'Snapshot' object has no attribute 'prev_daily_bar'
+2026-02-24 14:00:02,914 [WARNING] data_feed: Bulk snapshot failed: 'Snapshot' object has no attribute 'prev_daily_bar'
+2026-02-24 14:00:02,914 [INFO] scanner: Pre-market scan complete. Found 0 candidates.
+2026-02-24 14:00:02,915 [WARNING] warrior_bot: No candidates found. Will re-scan in 30 min.
+2026-02-24 14:30:02,945 [INFO] warrior_bot: Re-scanning pre-market...
+2026-02-24 14:30:02,946 [INFO] scanner: Starting pre-market gapper scan...
+2026-02-24 14:30:04,372 [INFO] scanner: Universe: 10271 tradeable symbols
+2026-02-24 14:30:05,105 [WARNING] data_feed: Bulk snapshot failed: 'Snapshot' object has no attribute 'prev_daily_bar'
+2026-02-24 14:30:05,258 [WARNING] data_feed: Bulk snapshot failed: 'Snapshot' object has no attribute 'prev_daily_bar'
+2026-02-24 14:30:05,409 [WARNING] data_feed: Bulk snapshot failed: 'Snapshot' object has no attribute 'prev_daily_bar'
+2026-02-24 14:30:05,563 [WARNING] data_feed: Bulk snapshot failed: 'Snapshot' object has no attribute 'prev_daily_bar'
+2026-02-24 14:30:05,717 [WARNING] data_feed: Bulk snapshot failed: 'Snapshot' object has no attribute 'prev_daily_bar'
+2026-02-24 14:30:05,717 [INFO] scanner: Pre-market scan complete. Found 0 candidates.
+2026-02-24 15:00:06,553 [INFO] warrior_bot: Re-scanning pre-market...
+2026-02-24 15:00:06,554 [INFO] scanner: Starting pre-market gapper scan...
+2026-02-24 15:00:08,030 [INFO] scanner: Universe: 10271 tradeable symbols
+2026-02-24 15:00:08,757 [WARNING] data_feed: Bulk snapshot failed: 'Snapshot' object has no attribute 'prev_daily_bar'
+2026-02-24 15:00:08,915 [WARNING] data_feed: Bulk snapshot failed: 'Snapshot' object has no attribute 'prev_daily_bar'
+2026-02-24 15:00:09,084 [WARNING] data_feed: Bulk snapshot failed: 'Snapshot' object has no attribute 'prev_daily_bar'
+2026-02-24 15:00:09,242 [WARNING] data_feed: Bulk snapshot failed: 'Snapshot' object has no attribute 'prev_daily_bar'
+2026-02-24 15:00:09,393 [WARNING] data_feed: Bulk snapshot failed: 'Snapshot' object has no attribute 'prev_daily_bar'
+2026-02-24 15:00:09,393 [INFO] scanner: Pre-market scan complete. Found 0 candidates.
+2026-02-24 15:30:10,259 [INFO] warrior_bot: Re-scanning pre-market...
+2026-02-24 15:30:10,261 [INFO] scanner: Starting pre-market gapper scan...
+2026-02-24 15:30:10,266 [ERROR] scanner: Failed to fetch asset list: HTTPSConnectionPool(host='paper-api.alpaca.markets', port=443): Max retries exceeded with url: /v2/assets?status=active&asset_class=us_equity (Caused by NameResolutionError("HTTPSConnection(host='paper-api.alpaca.markets', port=443): Failed to resolve 'paper-api.alpaca.markets' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-02-24 15:30:10,266 [ERROR] scanner: No symbols in universe. Check API keys.
+/Users/user/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+2026-02-24 15:46:48,369 [INFO] broker: Broker initialized (Paper Trading mode)
+2026-02-24 15:46:48,369 [INFO] warrior_bot: ============================================================
+2026-02-24 15:46:48,369 [INFO] warrior_bot:   WARRIOR TRADING BOT — STARTING
+2026-02-24 15:46:48,369 [INFO] warrior_bot:   Strategy: Ross Cameron Gap & Go Momentum
+2026-02-24 15:46:48,369 [INFO] warrior_bot:   Max daily loss: $500.0
+2026-02-24 15:46:48,369 [INFO] warrior_bot:   Max risk/trade: $100.0
+2026-02-24 15:46:48,369 [INFO] warrior_bot:   Mode: PAPER TRADING (no real money)
+2026-02-24 15:46:48,369 [INFO] warrior_bot: ============================================================
+2026-02-24 15:46:48,995 [INFO] warrior_bot: Bot scheduled. Waiting for 14:00 IST (7:00 AM ET)...
+2026-02-24 15:46:48,996 [INFO] warrior_bot: (Press Ctrl+C to stop)
+
+2026-02-24 16:30:00,118 [INFO] warrior_bot: ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-02-24 16:30:00,120 [INFO] warrior_bot:   9:30 AM — MARKET OPEN
+2026-02-24 16:30:00,122 [INFO] warrior_bot: ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-02-24 16:30:00,122 [WARNING] warrior_bot: Watchlist is empty. Running emergency pre-market scan...
+2026-02-24 16:30:00,123 [INFO] scanner: Starting pre-market gapper scan...
+2026-02-24 16:30:02,472 [INFO] scanner: Universe: 10271 tradeable symbols
+2026-02-24 16:30:04,495 [INFO] scanner: Pre-market scan complete. Found 0 candidates.
+2026-02-24 16:30:04,498 [INFO] warrior_bot: Active watchlist: []
+2026-02-24 18:30:00,228 [INFO] warrior_bot: ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-02-24 18:30:00,233 [INFO] warrior_bot:   11:30 AM — STOPPING NEW TRADES
+2026-02-24 18:30:00,233 [INFO] warrior_bot:   (Only managing existing position)
+2026-02-24 18:30:00,233 [INFO] warrior_bot: ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-02-24 22:55:00,216 [INFO] warrior_bot: ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-02-24 22:55:00,221 [INFO] warrior_bot:   END OF DAY — CLOSING ALL POSITIONS
+2026-02-24 22:55:00,221 [INFO] warrior_bot: ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-02-24 22:55:00,221 [INFO] broker: Closing ALL positions (end of day)
+2026-02-24 22:55:01,075 [INFO] broker: All open orders cancelled.
+2026-02-25 14:00:00,438 [INFO] warrior_bot: ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-02-25 14:00:00,444 [INFO] warrior_bot:   7:00 AM — PRE-MARKET SCAN
+2026-02-25 14:00:00,444 [INFO] warrior_bot: ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-02-25 14:00:00,445 [INFO] strategy: === PRE-MARKET ROUTINE START ===
+2026-02-25 14:00:00,446 [INFO] risk_manager: New trading day. Max daily loss: $500 | Max risk/trade: $100
+2026-02-25 14:00:00,446 [INFO] scanner: Starting pre-market gapper scan...
+2026-02-25 14:00:00,473 [ERROR] scanner: Failed to fetch asset list: HTTPSConnectionPool(host='paper-api.alpaca.markets', port=443): Max retries exceeded with url: /v2/assets?status=active&asset_class=us_equity (Caused by NameResolutionError("HTTPSConnection(host='paper-api.alpaca.markets', port=443): Failed to resolve 'paper-api.alpaca.markets' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-02-25 14:00:00,473 [ERROR] scanner: No symbols in universe. Check API keys.
+2026-02-25 14:00:00,474 [WARNING] warrior_bot: No candidates found. Will re-scan in 30 min.
+2026-02-25 14:30:00,966 [INFO] warrior_bot: Re-scanning pre-market...
+2026-02-25 14:30:00,967 [INFO] scanner: Starting pre-market gapper scan...
+2026-02-25 14:30:03,054 [INFO] scanner: Universe: 10279 tradeable symbols
+2026-02-25 14:30:05,227 [INFO] scanner: Pre-market scan complete. Found 0 candidates.
+2026-02-25 15:00:06,092 [INFO] warrior_bot: Re-scanning pre-market...
+2026-02-25 15:00:06,096 [INFO] scanner: Starting pre-market gapper scan...
+2026-02-25 15:00:08,212 [INFO] scanner: Universe: 10279 tradeable symbols
+2026-02-25 15:00:09,867 [INFO] scanner: Pre-market scan complete. Found 0 candidates.
+2026-02-25 15:30:10,668 [INFO] warrior_bot: Re-scanning pre-market...
+2026-02-25 15:30:10,671 [INFO] scanner: Starting pre-market gapper scan...
+2026-02-25 15:30:12,346 [INFO] scanner: Universe: 10324 tradeable symbols
+2026-02-25 15:30:16,392 [INFO] scanner: Pre-market scan complete. Found 1 candidates.
+2026-02-25 15:30:16,392 [INFO] scanner: QH: $1.03 (+12.0%) Vol=57,500.0 RVOL=16.4x Float=892.0M Pillars=3/5
+2026-02-25 16:30:00,176 [INFO] warrior_bot: ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-02-25 16:30:00,180 [INFO] warrior_bot:   9:30 AM — MARKET OPEN
+2026-02-25 16:30:00,180 [INFO] warrior_bot: ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-02-25 16:30:00,181 [INFO] warrior_bot: Active watchlist: ['QH']
+2026-02-25 16:30:09,260 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 16:30:09,275 [WARNING] data_feed: Failed to get bars for QH: HTTPSConnectionPool(host='data.alpaca.markets', port=443): Max retries exceeded with url: /v2/stocks/bars?start=2026-02-25T08%3A30%3A09.262221%2B00%3A00&limit=60&timeframe=1Min&feed=iex&symbols=QH (Caused by NameResolutionError("HTTPSConnection(host='data.alpaca.markets', port=443): Failed to resolve 'data.alpaca.markets' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-02-25 16:30:09,279 [WARNING] strategy: No bar data for QH.
+2026-02-25 16:30:39,526 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 16:30:39,533 [WARNING] data_feed: Failed to get bars for QH: HTTPSConnectionPool(host='data.alpaca.markets', port=443): Max retries exceeded with url: /v2/stocks/bars?start=2026-02-25T08%3A30%3A39.527404%2B00%3A00&limit=60&timeframe=1Min&feed=iex&symbols=QH (Caused by NameResolutionError("HTTPSConnection(host='data.alpaca.markets', port=443): Failed to resolve 'data.alpaca.markets' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-02-25 16:30:39,534 [WARNING] strategy: No bar data for QH.
+2026-02-25 16:31:09,789 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 16:31:09,796 [WARNING] data_feed: Failed to get bars for QH: HTTPSConnectionPool(host='data.alpaca.markets', port=443): Max retries exceeded with url: /v2/stocks/bars?start=2026-02-25T08%3A31%3A09.790039%2B00%3A00&limit=60&timeframe=1Min&feed=iex&symbols=QH (Caused by NameResolutionError("HTTPSConnection(host='data.alpaca.markets', port=443): Failed to resolve 'data.alpaca.markets' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-02-25 16:31:09,797 [WARNING] strategy: No bar data for QH.
+2026-02-25 16:31:40,035 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 16:31:40,043 [WARNING] data_feed: Failed to get bars for QH: HTTPSConnectionPool(host='data.alpaca.markets', port=443): Max retries exceeded with url: /v2/stocks/bars?start=2026-02-25T08%3A31%3A40.036424%2B00%3A00&limit=60&timeframe=1Min&feed=iex&symbols=QH (Caused by NameResolutionError("HTTPSConnection(host='data.alpaca.markets', port=443): Failed to resolve 'data.alpaca.markets' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-02-25 16:31:40,044 [WARNING] strategy: No bar data for QH.
+2026-02-25 16:32:10,281 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 16:32:10,287 [WARNING] data_feed: Failed to get bars for QH: HTTPSConnectionPool(host='data.alpaca.markets', port=443): Max retries exceeded with url: /v2/stocks/bars?start=2026-02-25T08%3A32%3A10.282147%2B00%3A00&limit=60&timeframe=1Min&feed=iex&symbols=QH (Caused by NameResolutionError("HTTPSConnection(host='data.alpaca.markets', port=443): Failed to resolve 'data.alpaca.markets' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-02-25 16:32:10,288 [WARNING] strategy: No bar data for QH.
+2026-02-25 16:32:40,545 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 16:32:40,552 [WARNING] data_feed: Failed to get bars for QH: HTTPSConnectionPool(host='data.alpaca.markets', port=443): Max retries exceeded with url: /v2/stocks/bars?start=2026-02-25T08%3A32%3A40.546450%2B00%3A00&limit=60&timeframe=1Min&feed=iex&symbols=QH (Caused by NameResolutionError("HTTPSConnection(host='data.alpaca.markets', port=443): Failed to resolve 'data.alpaca.markets' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-02-25 16:32:40,553 [WARNING] strategy: No bar data for QH.
+2026-02-25 16:33:10,788 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 16:33:10,797 [WARNING] data_feed: Failed to get bars for QH: HTTPSConnectionPool(host='data.alpaca.markets', port=443): Max retries exceeded with url: /v2/stocks/bars?start=2026-02-25T08%3A33%3A10.789420%2B00%3A00&limit=60&timeframe=1Min&feed=iex&symbols=QH (Caused by NameResolutionError("HTTPSConnection(host='data.alpaca.markets', port=443): Failed to resolve 'data.alpaca.markets' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-02-25 16:33:10,798 [WARNING] strategy: No bar data for QH.
+2026-02-25 16:33:41,049 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 16:33:41,057 [WARNING] data_feed: Failed to get bars for QH: HTTPSConnectionPool(host='data.alpaca.markets', port=443): Max retries exceeded with url: /v2/stocks/bars?start=2026-02-25T08%3A33%3A41.050475%2B00%3A00&limit=60&timeframe=1Min&feed=iex&symbols=QH (Caused by NameResolutionError("HTTPSConnection(host='data.alpaca.markets', port=443): Failed to resolve 'data.alpaca.markets' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-02-25 16:33:41,059 [WARNING] strategy: No bar data for QH.
+2026-02-25 16:34:11,294 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 16:34:11,301 [WARNING] data_feed: Failed to get bars for QH: HTTPSConnectionPool(host='data.alpaca.markets', port=443): Max retries exceeded with url: /v2/stocks/bars?start=2026-02-25T08%3A34%3A11.295491%2B00%3A00&limit=60&timeframe=1Min&feed=iex&symbols=QH (Caused by NameResolutionError("HTTPSConnection(host='data.alpaca.markets', port=443): Failed to resolve 'data.alpaca.markets' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-02-25 16:34:11,302 [WARNING] strategy: No bar data for QH.
+2026-02-25 16:34:41,548 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 16:34:41,556 [WARNING] data_feed: Failed to get bars for QH: HTTPSConnectionPool(host='data.alpaca.markets', port=443): Max retries exceeded with url: /v2/stocks/bars?start=2026-02-25T08%3A34%3A41.550110%2B00%3A00&limit=60&timeframe=1Min&feed=iex&symbols=QH (Caused by NameResolutionError("HTTPSConnection(host='data.alpaca.markets', port=443): Failed to resolve 'data.alpaca.markets' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-02-25 16:34:41,556 [WARNING] strategy: No bar data for QH.
+2026-02-25 16:35:11,804 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 16:35:11,812 [WARNING] data_feed: Failed to get bars for QH: HTTPSConnectionPool(host='data.alpaca.markets', port=443): Max retries exceeded with url: /v2/stocks/bars?start=2026-02-25T08%3A35%3A11.805821%2B00%3A00&limit=60&timeframe=1Min&feed=iex&symbols=QH (Caused by NameResolutionError("HTTPSConnection(host='data.alpaca.markets', port=443): Failed to resolve 'data.alpaca.markets' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-02-25 16:35:11,813 [WARNING] strategy: No bar data for QH.
+2026-02-25 16:35:42,068 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 16:35:42,076 [WARNING] data_feed: Failed to get bars for QH: HTTPSConnectionPool(host='data.alpaca.markets', port=443): Max retries exceeded with url: /v2/stocks/bars?start=2026-02-25T08%3A35%3A42.069021%2B00%3A00&limit=60&timeframe=1Min&feed=iex&symbols=QH (Caused by NameResolutionError("HTTPSConnection(host='data.alpaca.markets', port=443): Failed to resolve 'data.alpaca.markets' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-02-25 16:35:42,077 [WARNING] strategy: No bar data for QH.
+2026-02-25 16:36:12,331 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 16:36:12,341 [WARNING] data_feed: Failed to get bars for QH: HTTPSConnectionPool(host='data.alpaca.markets', port=443): Max retries exceeded with url: /v2/stocks/bars?start=2026-02-25T08%3A36%3A12.332764%2B00%3A00&limit=60&timeframe=1Min&feed=iex&symbols=QH (Caused by NameResolutionError("HTTPSConnection(host='data.alpaca.markets', port=443): Failed to resolve 'data.alpaca.markets' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-02-25 16:36:12,342 [WARNING] strategy: No bar data for QH.
+2026-02-25 16:36:42,593 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 16:36:42,602 [WARNING] data_feed: Failed to get bars for QH: HTTPSConnectionPool(host='data.alpaca.markets', port=443): Max retries exceeded with url: /v2/stocks/bars?start=2026-02-25T08%3A36%3A42.594681%2B00%3A00&limit=60&timeframe=1Min&feed=iex&symbols=QH (Caused by NameResolutionError("HTTPSConnection(host='data.alpaca.markets', port=443): Failed to resolve 'data.alpaca.markets' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-02-25 16:36:42,603 [WARNING] strategy: No bar data for QH.
+2026-02-25 16:37:12,844 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 16:37:12,853 [WARNING] data_feed: Failed to get bars for QH: HTTPSConnectionPool(host='data.alpaca.markets', port=443): Max retries exceeded with url: /v2/stocks/bars?start=2026-02-25T08%3A37%3A12.845393%2B00%3A00&limit=60&timeframe=1Min&feed=iex&symbols=QH (Caused by NameResolutionError("HTTPSConnection(host='data.alpaca.markets', port=443): Failed to resolve 'data.alpaca.markets' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-02-25 16:37:12,854 [WARNING] strategy: No bar data for QH.
+2026-02-25 16:37:43,095 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 16:37:43,103 [WARNING] data_feed: Failed to get bars for QH: HTTPSConnectionPool(host='data.alpaca.markets', port=443): Max retries exceeded with url: /v2/stocks/bars?start=2026-02-25T08%3A37%3A43.096842%2B00%3A00&limit=60&timeframe=1Min&feed=iex&symbols=QH (Caused by NameResolutionError("HTTPSConnection(host='data.alpaca.markets', port=443): Failed to resolve 'data.alpaca.markets' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-02-25 16:37:43,104 [WARNING] strategy: No bar data for QH.
+2026-02-25 16:38:13,353 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 16:38:13,360 [WARNING] data_feed: Failed to get bars for QH: HTTPSConnectionPool(host='data.alpaca.markets', port=443): Max retries exceeded with url: /v2/stocks/bars?start=2026-02-25T08%3A38%3A13.353998%2B00%3A00&limit=60&timeframe=1Min&feed=iex&symbols=QH (Caused by NameResolutionError("HTTPSConnection(host='data.alpaca.markets', port=443): Failed to resolve 'data.alpaca.markets' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-02-25 16:38:13,361 [WARNING] strategy: No bar data for QH.
+2026-02-25 16:38:43,609 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 16:38:43,615 [WARNING] data_feed: Failed to get bars for QH: HTTPSConnectionPool(host='data.alpaca.markets', port=443): Max retries exceeded with url: /v2/stocks/bars?start=2026-02-25T08%3A38%3A43.610180%2B00%3A00&limit=60&timeframe=1Min&feed=iex&symbols=QH (Caused by NameResolutionError("HTTPSConnection(host='data.alpaca.markets', port=443): Failed to resolve 'data.alpaca.markets' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-02-25 16:38:43,616 [WARNING] strategy: No bar data for QH.
+2026-02-25 16:39:13,866 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 16:39:13,873 [WARNING] data_feed: Failed to get bars for QH: HTTPSConnectionPool(host='data.alpaca.markets', port=443): Max retries exceeded with url: /v2/stocks/bars?start=2026-02-25T08%3A39%3A13.866994%2B00%3A00&limit=60&timeframe=1Min&feed=iex&symbols=QH (Caused by NameResolutionError("HTTPSConnection(host='data.alpaca.markets', port=443): Failed to resolve 'data.alpaca.markets' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-02-25 16:39:13,874 [WARNING] strategy: No bar data for QH.
+2026-02-25 16:39:44,122 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 16:39:44,130 [WARNING] data_feed: Failed to get bars for QH: HTTPSConnectionPool(host='data.alpaca.markets', port=443): Max retries exceeded with url: /v2/stocks/bars?start=2026-02-25T08%3A39%3A44.123506%2B00%3A00&limit=60&timeframe=1Min&feed=iex&symbols=QH (Caused by NameResolutionError("HTTPSConnection(host='data.alpaca.markets', port=443): Failed to resolve 'data.alpaca.markets' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-02-25 16:39:44,131 [WARNING] strategy: No bar data for QH.
+2026-02-25 16:40:14,361 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 16:40:14,370 [WARNING] data_feed: Failed to get bars for QH: HTTPSConnectionPool(host='data.alpaca.markets', port=443): Max retries exceeded with url: /v2/stocks/bars?start=2026-02-25T08%3A40%3A14.363759%2B00%3A00&limit=60&timeframe=1Min&feed=iex&symbols=QH (Caused by NameResolutionError("HTTPSConnection(host='data.alpaca.markets', port=443): Failed to resolve 'data.alpaca.markets' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-02-25 16:40:14,371 [WARNING] strategy: No bar data for QH.
+2026-02-25 16:40:44,603 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 16:40:44,613 [WARNING] data_feed: Failed to get bars for QH: HTTPSConnectionPool(host='data.alpaca.markets', port=443): Max retries exceeded with url: /v2/stocks/bars?start=2026-02-25T08%3A40%3A44.604625%2B00%3A00&limit=60&timeframe=1Min&feed=iex&symbols=QH (Caused by NameResolutionError("HTTPSConnection(host='data.alpaca.markets', port=443): Failed to resolve 'data.alpaca.markets' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-02-25 16:40:44,614 [WARNING] strategy: No bar data for QH.
+2026-02-25 16:41:14,850 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 16:41:14,859 [WARNING] data_feed: Failed to get bars for QH: HTTPSConnectionPool(host='data.alpaca.markets', port=443): Max retries exceeded with url: /v2/stocks/bars?start=2026-02-25T08%3A41%3A14.852106%2B00%3A00&limit=60&timeframe=1Min&feed=iex&symbols=QH (Caused by NameResolutionError("HTTPSConnection(host='data.alpaca.markets', port=443): Failed to resolve 'data.alpaca.markets' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-02-25 16:41:14,860 [WARNING] strategy: No bar data for QH.
+2026-02-25 16:41:45,106 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 16:41:45,112 [WARNING] data_feed: Failed to get bars for QH: HTTPSConnectionPool(host='data.alpaca.markets', port=443): Max retries exceeded with url: /v2/stocks/bars?start=2026-02-25T08%3A41%3A45.107087%2B00%3A00&limit=60&timeframe=1Min&feed=iex&symbols=QH (Caused by NameResolutionError("HTTPSConnection(host='data.alpaca.markets', port=443): Failed to resolve 'data.alpaca.markets' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-02-25 16:41:45,113 [WARNING] strategy: No bar data for QH.
+2026-02-25 16:42:15,369 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 16:42:15,378 [WARNING] data_feed: Failed to get bars for QH: HTTPSConnectionPool(host='data.alpaca.markets', port=443): Max retries exceeded with url: /v2/stocks/bars?start=2026-02-25T08%3A42%3A15.370884%2B00%3A00&limit=60&timeframe=1Min&feed=iex&symbols=QH (Caused by NameResolutionError("HTTPSConnection(host='data.alpaca.markets', port=443): Failed to resolve 'data.alpaca.markets' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-02-25 16:42:15,378 [WARNING] strategy: No bar data for QH.
+2026-02-25 16:42:45,640 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 16:42:45,648 [WARNING] data_feed: Failed to get bars for QH: HTTPSConnectionPool(host='data.alpaca.markets', port=443): Max retries exceeded with url: /v2/stocks/bars?start=2026-02-25T08%3A42%3A45.641809%2B00%3A00&limit=60&timeframe=1Min&feed=iex&symbols=QH (Caused by NameResolutionError("HTTPSConnection(host='data.alpaca.markets', port=443): Failed to resolve 'data.alpaca.markets' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-02-25 16:42:45,649 [WARNING] strategy: No bar data for QH.
+2026-02-25 16:43:15,908 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 16:43:15,916 [WARNING] data_feed: Failed to get bars for QH: HTTPSConnectionPool(host='data.alpaca.markets', port=443): Max retries exceeded with url: /v2/stocks/bars?start=2026-02-25T08%3A43%3A15.909564%2B00%3A00&limit=60&timeframe=1Min&feed=iex&symbols=QH (Caused by NameResolutionError("HTTPSConnection(host='data.alpaca.markets', port=443): Failed to resolve 'data.alpaca.markets' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-02-25 16:43:15,916 [WARNING] strategy: No bar data for QH.
+2026-02-25 16:43:46,145 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 16:43:46,150 [WARNING] data_feed: Failed to get bars for QH: HTTPSConnectionPool(host='data.alpaca.markets', port=443): Max retries exceeded with url: /v2/stocks/bars?start=2026-02-25T08%3A43%3A46.146033%2B00%3A00&limit=60&timeframe=1Min&feed=iex&symbols=QH (Caused by NameResolutionError("HTTPSConnection(host='data.alpaca.markets', port=443): Failed to resolve 'data.alpaca.markets' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-02-25 16:43:46,151 [WARNING] strategy: No bar data for QH.
+2026-02-25 16:44:16,399 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 16:44:16,406 [WARNING] data_feed: Failed to get bars for QH: HTTPSConnectionPool(host='data.alpaca.markets', port=443): Max retries exceeded with url: /v2/stocks/bars?start=2026-02-25T08%3A44%3A16.399986%2B00%3A00&limit=60&timeframe=1Min&feed=iex&symbols=QH (Caused by NameResolutionError("HTTPSConnection(host='data.alpaca.markets', port=443): Failed to resolve 'data.alpaca.markets' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-02-25 16:44:16,408 [WARNING] strategy: No bar data for QH.
+2026-02-25 16:44:46,651 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 16:44:46,659 [WARNING] data_feed: Failed to get bars for QH: HTTPSConnectionPool(host='data.alpaca.markets', port=443): Max retries exceeded with url: /v2/stocks/bars?start=2026-02-25T08%3A44%3A46.653259%2B00%3A00&limit=60&timeframe=1Min&feed=iex&symbols=QH (Caused by NameResolutionError("HTTPSConnection(host='data.alpaca.markets', port=443): Failed to resolve 'data.alpaca.markets' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-02-25 16:44:46,660 [WARNING] strategy: No bar data for QH.
+2026-02-25 16:45:16,908 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 16:45:16,917 [WARNING] data_feed: Failed to get bars for QH: HTTPSConnectionPool(host='data.alpaca.markets', port=443): Max retries exceeded with url: /v2/stocks/bars?start=2026-02-25T08%3A45%3A16.909975%2B00%3A00&limit=60&timeframe=1Min&feed=iex&symbols=QH (Caused by NameResolutionError("HTTPSConnection(host='data.alpaca.markets', port=443): Failed to resolve 'data.alpaca.markets' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-02-25 16:45:16,918 [WARNING] strategy: No bar data for QH.
+2026-02-25 16:45:47,161 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 16:45:47,169 [WARNING] data_feed: Failed to get bars for QH: HTTPSConnectionPool(host='data.alpaca.markets', port=443): Max retries exceeded with url: /v2/stocks/bars?start=2026-02-25T08%3A45%3A47.162378%2B00%3A00&limit=60&timeframe=1Min&feed=iex&symbols=QH (Caused by NameResolutionError("HTTPSConnection(host='data.alpaca.markets', port=443): Failed to resolve 'data.alpaca.markets' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-02-25 16:45:47,170 [WARNING] strategy: No bar data for QH.
+2026-02-25 16:46:17,421 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 16:46:17,429 [WARNING] data_feed: Failed to get bars for QH: HTTPSConnectionPool(host='data.alpaca.markets', port=443): Max retries exceeded with url: /v2/stocks/bars?start=2026-02-25T08%3A46%3A17.422657%2B00%3A00&limit=60&timeframe=1Min&feed=iex&symbols=QH (Caused by NameResolutionError("HTTPSConnection(host='data.alpaca.markets', port=443): Failed to resolve 'data.alpaca.markets' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-02-25 16:46:17,430 [WARNING] strategy: No bar data for QH.
+2026-02-25 16:46:47,662 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 16:46:47,669 [WARNING] data_feed: Failed to get bars for QH: HTTPSConnectionPool(host='data.alpaca.markets', port=443): Max retries exceeded with url: /v2/stocks/bars?start=2026-02-25T08%3A46%3A47.663466%2B00%3A00&limit=60&timeframe=1Min&feed=iex&symbols=QH (Caused by NameResolutionError("HTTPSConnection(host='data.alpaca.markets', port=443): Failed to resolve 'data.alpaca.markets' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-02-25 16:46:47,670 [WARNING] strategy: No bar data for QH.
+2026-02-25 16:47:17,928 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 16:47:17,936 [WARNING] data_feed: Failed to get bars for QH: HTTPSConnectionPool(host='data.alpaca.markets', port=443): Max retries exceeded with url: /v2/stocks/bars?start=2026-02-25T08%3A47%3A17.929233%2B00%3A00&limit=60&timeframe=1Min&feed=iex&symbols=QH (Caused by NameResolutionError("HTTPSConnection(host='data.alpaca.markets', port=443): Failed to resolve 'data.alpaca.markets' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-02-25 16:47:17,937 [WARNING] strategy: No bar data for QH.
+2026-02-25 16:47:48,191 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 16:47:48,200 [WARNING] data_feed: Failed to get bars for QH: HTTPSConnectionPool(host='data.alpaca.markets', port=443): Max retries exceeded with url: /v2/stocks/bars?start=2026-02-25T08%3A47%3A48.192971%2B00%3A00&limit=60&timeframe=1Min&feed=iex&symbols=QH (Caused by NameResolutionError("HTTPSConnection(host='data.alpaca.markets', port=443): Failed to resolve 'data.alpaca.markets' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-02-25 16:47:48,201 [WARNING] strategy: No bar data for QH.
+2026-02-25 16:48:18,431 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 16:48:18,442 [WARNING] data_feed: Failed to get bars for QH: HTTPSConnectionPool(host='data.alpaca.markets', port=443): Max retries exceeded with url: /v2/stocks/bars?start=2026-02-25T08%3A48%3A18.432105%2B00%3A00&limit=60&timeframe=1Min&feed=iex&symbols=QH (Caused by NameResolutionError("HTTPSConnection(host='data.alpaca.markets', port=443): Failed to resolve 'data.alpaca.markets' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-02-25 16:48:18,443 [WARNING] strategy: No bar data for QH.
+2026-02-25 16:48:48,694 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 16:48:48,701 [WARNING] data_feed: Failed to get bars for QH: HTTPSConnectionPool(host='data.alpaca.markets', port=443): Max retries exceeded with url: /v2/stocks/bars?start=2026-02-25T08%3A48%3A48.695744%2B00%3A00&limit=60&timeframe=1Min&feed=iex&symbols=QH (Caused by NameResolutionError("HTTPSConnection(host='data.alpaca.markets', port=443): Failed to resolve 'data.alpaca.markets' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-02-25 16:48:48,702 [WARNING] strategy: No bar data for QH.
+2026-02-25 16:49:18,943 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 16:49:18,953 [WARNING] data_feed: Failed to get bars for QH: HTTPSConnectionPool(host='data.alpaca.markets', port=443): Max retries exceeded with url: /v2/stocks/bars?start=2026-02-25T08%3A49%3A18.945878%2B00%3A00&limit=60&timeframe=1Min&feed=iex&symbols=QH (Caused by NameResolutionError("HTTPSConnection(host='data.alpaca.markets', port=443): Failed to resolve 'data.alpaca.markets' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-02-25 16:49:18,954 [WARNING] strategy: No bar data for QH.
+2026-02-25 16:49:49,175 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 16:49:49,182 [WARNING] data_feed: Failed to get bars for QH: HTTPSConnectionPool(host='data.alpaca.markets', port=443): Max retries exceeded with url: /v2/stocks/bars?start=2026-02-25T08%3A49%3A49.176613%2B00%3A00&limit=60&timeframe=1Min&feed=iex&symbols=QH (Caused by NameResolutionError("HTTPSConnection(host='data.alpaca.markets', port=443): Failed to resolve 'data.alpaca.markets' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-02-25 16:49:49,184 [WARNING] strategy: No bar data for QH.
+2026-02-25 16:50:19,411 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 16:50:19,419 [WARNING] data_feed: Failed to get bars for QH: HTTPSConnectionPool(host='data.alpaca.markets', port=443): Max retries exceeded with url: /v2/stocks/bars?start=2026-02-25T08%3A50%3A19.412280%2B00%3A00&limit=60&timeframe=1Min&feed=iex&symbols=QH (Caused by NameResolutionError("HTTPSConnection(host='data.alpaca.markets', port=443): Failed to resolve 'data.alpaca.markets' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-02-25 16:50:19,420 [WARNING] strategy: No bar data for QH.
+2026-02-25 16:50:49,642 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 16:50:49,648 [WARNING] data_feed: Failed to get bars for QH: HTTPSConnectionPool(host='data.alpaca.markets', port=443): Max retries exceeded with url: /v2/stocks/bars?start=2026-02-25T08%3A50%3A49.643287%2B00%3A00&limit=60&timeframe=1Min&feed=iex&symbols=QH (Caused by NameResolutionError("HTTPSConnection(host='data.alpaca.markets', port=443): Failed to resolve 'data.alpaca.markets' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-02-25 16:50:49,649 [WARNING] strategy: No bar data for QH.
+2026-02-25 16:51:19,872 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 16:51:19,881 [WARNING] data_feed: Failed to get bars for QH: HTTPSConnectionPool(host='data.alpaca.markets', port=443): Max retries exceeded with url: /v2/stocks/bars?start=2026-02-25T08%3A51%3A19.873796%2B00%3A00&limit=60&timeframe=1Min&feed=iex&symbols=QH (Caused by NameResolutionError("HTTPSConnection(host='data.alpaca.markets', port=443): Failed to resolve 'data.alpaca.markets' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-02-25 16:51:19,882 [WARNING] strategy: No bar data for QH.
+2026-02-25 16:51:50,126 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 16:51:50,133 [WARNING] data_feed: Failed to get bars for QH: HTTPSConnectionPool(host='data.alpaca.markets', port=443): Max retries exceeded with url: /v2/stocks/bars?start=2026-02-25T08%3A51%3A50.127659%2B00%3A00&limit=60&timeframe=1Min&feed=iex&symbols=QH (Caused by NameResolutionError("HTTPSConnection(host='data.alpaca.markets', port=443): Failed to resolve 'data.alpaca.markets' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-02-25 16:51:50,134 [WARNING] strategy: No bar data for QH.
+2026-02-25 16:52:20,378 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 16:52:20,386 [WARNING] data_feed: Failed to get bars for QH: HTTPSConnectionPool(host='data.alpaca.markets', port=443): Max retries exceeded with url: /v2/stocks/bars?start=2026-02-25T08%3A52%3A20.379856%2B00%3A00&limit=60&timeframe=1Min&feed=iex&symbols=QH (Caused by NameResolutionError("HTTPSConnection(host='data.alpaca.markets', port=443): Failed to resolve 'data.alpaca.markets' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-02-25 16:52:20,387 [WARNING] strategy: No bar data for QH.
+2026-02-25 16:52:50,633 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 16:52:50,640 [WARNING] data_feed: Failed to get bars for QH: HTTPSConnectionPool(host='data.alpaca.markets', port=443): Max retries exceeded with url: /v2/stocks/bars?start=2026-02-25T08%3A52%3A50.634178%2B00%3A00&limit=60&timeframe=1Min&feed=iex&symbols=QH (Caused by NameResolutionError("HTTPSConnection(host='data.alpaca.markets', port=443): Failed to resolve 'data.alpaca.markets' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-02-25 16:52:50,641 [WARNING] strategy: No bar data for QH.
+2026-02-25 16:53:20,915 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 16:53:20,921 [WARNING] data_feed: Failed to get bars for QH: HTTPSConnectionPool(host='data.alpaca.markets', port=443): Max retries exceeded with url: /v2/stocks/bars?start=2026-02-25T08%3A53%3A20.916287%2B00%3A00&limit=60&timeframe=1Min&feed=iex&symbols=QH (Caused by NameResolutionError("HTTPSConnection(host='data.alpaca.markets', port=443): Failed to resolve 'data.alpaca.markets' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-02-25 16:53:20,922 [WARNING] strategy: No bar data for QH.
+2026-02-25 16:53:51,163 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 16:53:51,170 [WARNING] data_feed: Failed to get bars for QH: HTTPSConnectionPool(host='data.alpaca.markets', port=443): Max retries exceeded with url: /v2/stocks/bars?start=2026-02-25T08%3A53%3A51.164433%2B00%3A00&limit=60&timeframe=1Min&feed=iex&symbols=QH (Caused by NameResolutionError("HTTPSConnection(host='data.alpaca.markets', port=443): Failed to resolve 'data.alpaca.markets' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-02-25 16:53:51,171 [WARNING] strategy: No bar data for QH.
+2026-02-25 16:54:21,433 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 16:54:21,444 [WARNING] data_feed: Failed to get bars for QH: HTTPSConnectionPool(host='data.alpaca.markets', port=443): Max retries exceeded with url: /v2/stocks/bars?start=2026-02-25T08%3A54%3A21.434286%2B00%3A00&limit=60&timeframe=1Min&feed=iex&symbols=QH (Caused by NameResolutionError("HTTPSConnection(host='data.alpaca.markets', port=443): Failed to resolve 'data.alpaca.markets' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-02-25 16:54:21,445 [WARNING] strategy: No bar data for QH.
+2026-02-25 16:54:51,690 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 16:54:51,699 [WARNING] data_feed: Failed to get bars for QH: HTTPSConnectionPool(host='data.alpaca.markets', port=443): Max retries exceeded with url: /v2/stocks/bars?start=2026-02-25T08%3A54%3A51.692596%2B00%3A00&limit=60&timeframe=1Min&feed=iex&symbols=QH (Caused by NameResolutionError("HTTPSConnection(host='data.alpaca.markets', port=443): Failed to resolve 'data.alpaca.markets' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-02-25 16:54:51,700 [WARNING] strategy: No bar data for QH.
+2026-02-25 16:55:21,946 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 16:55:21,955 [WARNING] data_feed: Failed to get bars for QH: HTTPSConnectionPool(host='data.alpaca.markets', port=443): Max retries exceeded with url: /v2/stocks/bars?start=2026-02-25T08%3A55%3A21.947090%2B00%3A00&limit=60&timeframe=1Min&feed=iex&symbols=QH (Caused by NameResolutionError("HTTPSConnection(host='data.alpaca.markets', port=443): Failed to resolve 'data.alpaca.markets' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-02-25 16:55:21,956 [WARNING] strategy: No bar data for QH.
+2026-02-25 16:55:52,210 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 16:55:52,218 [WARNING] data_feed: Failed to get bars for QH: HTTPSConnectionPool(host='data.alpaca.markets', port=443): Max retries exceeded with url: /v2/stocks/bars?start=2026-02-25T08%3A55%3A52.211317%2B00%3A00&limit=60&timeframe=1Min&feed=iex&symbols=QH (Caused by NameResolutionError("HTTPSConnection(host='data.alpaca.markets', port=443): Failed to resolve 'data.alpaca.markets' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-02-25 16:55:52,218 [WARNING] strategy: No bar data for QH.
+2026-02-25 16:56:22,443 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 16:56:22,451 [WARNING] data_feed: Failed to get bars for QH: HTTPSConnectionPool(host='data.alpaca.markets', port=443): Max retries exceeded with url: /v2/stocks/bars?start=2026-02-25T08%3A56%3A22.444485%2B00%3A00&limit=60&timeframe=1Min&feed=iex&symbols=QH (Caused by NameResolutionError("HTTPSConnection(host='data.alpaca.markets', port=443): Failed to resolve 'data.alpaca.markets' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-02-25 16:56:22,452 [WARNING] strategy: No bar data for QH.
+2026-02-25 16:56:52,685 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 16:56:52,693 [WARNING] data_feed: Failed to get bars for QH: HTTPSConnectionPool(host='data.alpaca.markets', port=443): Max retries exceeded with url: /v2/stocks/bars?start=2026-02-25T08%3A56%3A52.687006%2B00%3A00&limit=60&timeframe=1Min&feed=iex&symbols=QH (Caused by NameResolutionError("HTTPSConnection(host='data.alpaca.markets', port=443): Failed to resolve 'data.alpaca.markets' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-02-25 16:56:52,694 [WARNING] strategy: No bar data for QH.
+2026-02-25 16:57:22,936 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 16:57:22,944 [WARNING] data_feed: Failed to get bars for QH: HTTPSConnectionPool(host='data.alpaca.markets', port=443): Max retries exceeded with url: /v2/stocks/bars?start=2026-02-25T08%3A57%3A22.937563%2B00%3A00&limit=60&timeframe=1Min&feed=iex&symbols=QH (Caused by NameResolutionError("HTTPSConnection(host='data.alpaca.markets', port=443): Failed to resolve 'data.alpaca.markets' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-02-25 16:57:22,945 [WARNING] strategy: No bar data for QH.
+2026-02-25 16:57:53,179 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 16:57:53,187 [WARNING] data_feed: Failed to get bars for QH: HTTPSConnectionPool(host='data.alpaca.markets', port=443): Max retries exceeded with url: /v2/stocks/bars?start=2026-02-25T08%3A57%3A53.180711%2B00%3A00&limit=60&timeframe=1Min&feed=iex&symbols=QH (Caused by NameResolutionError("HTTPSConnection(host='data.alpaca.markets', port=443): Failed to resolve 'data.alpaca.markets' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-02-25 16:57:53,188 [WARNING] strategy: No bar data for QH.
+2026-02-25 16:58:23,441 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 16:58:23,450 [WARNING] data_feed: Failed to get bars for QH: HTTPSConnectionPool(host='data.alpaca.markets', port=443): Max retries exceeded with url: /v2/stocks/bars?start=2026-02-25T08%3A58%3A23.442505%2B00%3A00&limit=60&timeframe=1Min&feed=iex&symbols=QH (Caused by NameResolutionError("HTTPSConnection(host='data.alpaca.markets', port=443): Failed to resolve 'data.alpaca.markets' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-02-25 16:58:23,452 [WARNING] strategy: No bar data for QH.
+2026-02-25 16:58:53,679 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 16:58:53,688 [WARNING] data_feed: Failed to get bars for QH: HTTPSConnectionPool(host='data.alpaca.markets', port=443): Max retries exceeded with url: /v2/stocks/bars?start=2026-02-25T08%3A58%3A53.680341%2B00%3A00&limit=60&timeframe=1Min&feed=iex&symbols=QH (Caused by NameResolutionError("HTTPSConnection(host='data.alpaca.markets', port=443): Failed to resolve 'data.alpaca.markets' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-02-25 16:58:53,688 [WARNING] strategy: No bar data for QH.
+2026-02-25 16:59:23,943 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 16:59:23,951 [WARNING] data_feed: Failed to get bars for QH: HTTPSConnectionPool(host='data.alpaca.markets', port=443): Max retries exceeded with url: /v2/stocks/bars?start=2026-02-25T08%3A59%3A23.944075%2B00%3A00&limit=60&timeframe=1Min&feed=iex&symbols=QH (Caused by NameResolutionError("HTTPSConnection(host='data.alpaca.markets', port=443): Failed to resolve 'data.alpaca.markets' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-02-25 16:59:23,952 [WARNING] strategy: No bar data for QH.
+2026-02-25 16:59:54,197 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 16:59:54,206 [WARNING] data_feed: Failed to get bars for QH: HTTPSConnectionPool(host='data.alpaca.markets', port=443): Max retries exceeded with url: /v2/stocks/bars?start=2026-02-25T08%3A59%3A54.198441%2B00%3A00&limit=60&timeframe=1Min&feed=iex&symbols=QH (Caused by NameResolutionError("HTTPSConnection(host='data.alpaca.markets', port=443): Failed to resolve 'data.alpaca.markets' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-02-25 16:59:54,207 [WARNING] strategy: No bar data for QH.
+2026-02-25 17:00:24,454 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 17:00:24,461 [WARNING] data_feed: Failed to get bars for QH: HTTPSConnectionPool(host='data.alpaca.markets', port=443): Max retries exceeded with url: /v2/stocks/bars?start=2026-02-25T09%3A00%3A24.455425%2B00%3A00&limit=60&timeframe=1Min&feed=iex&symbols=QH (Caused by NameResolutionError("HTTPSConnection(host='data.alpaca.markets', port=443): Failed to resolve 'data.alpaca.markets' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-02-25 17:00:24,462 [WARNING] strategy: No bar data for QH.
+2026-02-25 17:00:54,720 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 17:00:54,729 [WARNING] data_feed: Failed to get bars for QH: HTTPSConnectionPool(host='data.alpaca.markets', port=443): Max retries exceeded with url: /v2/stocks/bars?start=2026-02-25T09%3A00%3A54.721402%2B00%3A00&limit=60&timeframe=1Min&feed=iex&symbols=QH (Caused by NameResolutionError("HTTPSConnection(host='data.alpaca.markets', port=443): Failed to resolve 'data.alpaca.markets' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-02-25 17:00:54,730 [WARNING] strategy: No bar data for QH.
+2026-02-25 17:01:24,978 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 17:01:24,986 [WARNING] data_feed: Failed to get bars for QH: HTTPSConnectionPool(host='data.alpaca.markets', port=443): Max retries exceeded with url: /v2/stocks/bars?start=2026-02-25T09%3A01%3A24.979023%2B00%3A00&limit=60&timeframe=1Min&feed=iex&symbols=QH (Caused by NameResolutionError("HTTPSConnection(host='data.alpaca.markets', port=443): Failed to resolve 'data.alpaca.markets' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-02-25 17:01:24,987 [WARNING] strategy: No bar data for QH.
+2026-02-25 17:01:55,221 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 17:01:55,231 [WARNING] data_feed: Failed to get bars for QH: HTTPSConnectionPool(host='data.alpaca.markets', port=443): Max retries exceeded with url: /v2/stocks/bars?start=2026-02-25T09%3A01%3A55.222898%2B00%3A00&limit=60&timeframe=1Min&feed=iex&symbols=QH (Caused by NameResolutionError("HTTPSConnection(host='data.alpaca.markets', port=443): Failed to resolve 'data.alpaca.markets' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-02-25 17:01:55,232 [WARNING] strategy: No bar data for QH.
+2026-02-25 17:02:25,478 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 17:02:25,486 [WARNING] data_feed: Failed to get bars for QH: HTTPSConnectionPool(host='data.alpaca.markets', port=443): Max retries exceeded with url: /v2/stocks/bars?start=2026-02-25T09%3A02%3A25.479737%2B00%3A00&limit=60&timeframe=1Min&feed=iex&symbols=QH (Caused by NameResolutionError("HTTPSConnection(host='data.alpaca.markets', port=443): Failed to resolve 'data.alpaca.markets' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-02-25 17:02:25,487 [WARNING] strategy: No bar data for QH.
+2026-02-25 17:02:55,732 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 17:02:55,741 [WARNING] data_feed: Failed to get bars for QH: HTTPSConnectionPool(host='data.alpaca.markets', port=443): Max retries exceeded with url: /v2/stocks/bars?start=2026-02-25T09%3A02%3A55.733441%2B00%3A00&limit=60&timeframe=1Min&feed=iex&symbols=QH (Caused by NameResolutionError("HTTPSConnection(host='data.alpaca.markets', port=443): Failed to resolve 'data.alpaca.markets' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-02-25 17:02:55,742 [WARNING] strategy: No bar data for QH.
+2026-02-25 17:03:25,978 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 17:03:25,986 [WARNING] data_feed: Failed to get bars for QH: HTTPSConnectionPool(host='data.alpaca.markets', port=443): Max retries exceeded with url: /v2/stocks/bars?start=2026-02-25T09%3A03%3A25.979578%2B00%3A00&limit=60&timeframe=1Min&feed=iex&symbols=QH (Caused by NameResolutionError("HTTPSConnection(host='data.alpaca.markets', port=443): Failed to resolve 'data.alpaca.markets' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-02-25 17:03:25,987 [WARNING] strategy: No bar data for QH.
+2026-02-25 17:03:56,241 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 17:03:56,248 [WARNING] data_feed: Failed to get bars for QH: HTTPSConnectionPool(host='data.alpaca.markets', port=443): Max retries exceeded with url: /v2/stocks/bars?start=2026-02-25T09%3A03%3A56.241971%2B00%3A00&limit=60&timeframe=1Min&feed=iex&symbols=QH (Caused by NameResolutionError("HTTPSConnection(host='data.alpaca.markets', port=443): Failed to resolve 'data.alpaca.markets' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-02-25 17:03:56,249 [WARNING] strategy: No bar data for QH.
+2026-02-25 17:04:26,488 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 17:04:26,496 [WARNING] data_feed: Failed to get bars for QH: HTTPSConnectionPool(host='data.alpaca.markets', port=443): Max retries exceeded with url: /v2/stocks/bars?start=2026-02-25T09%3A04%3A26.489243%2B00%3A00&limit=60&timeframe=1Min&feed=iex&symbols=QH (Caused by NameResolutionError("HTTPSConnection(host='data.alpaca.markets', port=443): Failed to resolve 'data.alpaca.markets' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-02-25 17:04:26,496 [WARNING] strategy: No bar data for QH.
+2026-02-25 17:04:56,743 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 17:04:56,752 [WARNING] data_feed: Failed to get bars for QH: HTTPSConnectionPool(host='data.alpaca.markets', port=443): Max retries exceeded with url: /v2/stocks/bars?start=2026-02-25T09%3A04%3A56.746424%2B00%3A00&limit=60&timeframe=1Min&feed=iex&symbols=QH (Caused by NameResolutionError("HTTPSConnection(host='data.alpaca.markets', port=443): Failed to resolve 'data.alpaca.markets' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-02-25 17:04:56,753 [WARNING] strategy: No bar data for QH.
+2026-02-25 17:05:26,978 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 17:05:26,987 [WARNING] data_feed: Failed to get bars for QH: HTTPSConnectionPool(host='data.alpaca.markets', port=443): Max retries exceeded with url: /v2/stocks/bars?start=2026-02-25T09%3A05%3A26.979907%2B00%3A00&limit=60&timeframe=1Min&feed=iex&symbols=QH (Caused by NameResolutionError("HTTPSConnection(host='data.alpaca.markets', port=443): Failed to resolve 'data.alpaca.markets' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-02-25 17:05:26,988 [WARNING] strategy: No bar data for QH.
+2026-02-25 17:05:57,223 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 17:05:57,230 [WARNING] data_feed: Failed to get bars for QH: HTTPSConnectionPool(host='data.alpaca.markets', port=443): Max retries exceeded with url: /v2/stocks/bars?start=2026-02-25T09%3A05%3A57.223921%2B00%3A00&limit=60&timeframe=1Min&feed=iex&symbols=QH (Caused by NameResolutionError("HTTPSConnection(host='data.alpaca.markets', port=443): Failed to resolve 'data.alpaca.markets' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-02-25 17:05:57,231 [WARNING] strategy: No bar data for QH.
+2026-02-25 17:06:27,478 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 17:06:27,486 [WARNING] data_feed: Failed to get bars for QH: HTTPSConnectionPool(host='data.alpaca.markets', port=443): Max retries exceeded with url: /v2/stocks/bars?start=2026-02-25T09%3A06%3A27.479661%2B00%3A00&limit=60&timeframe=1Min&feed=iex&symbols=QH (Caused by NameResolutionError("HTTPSConnection(host='data.alpaca.markets', port=443): Failed to resolve 'data.alpaca.markets' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-02-25 17:06:27,487 [WARNING] strategy: No bar data for QH.
+2026-02-25 17:06:57,737 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 17:06:57,744 [WARNING] data_feed: Failed to get bars for QH: HTTPSConnectionPool(host='data.alpaca.markets', port=443): Max retries exceeded with url: /v2/stocks/bars?start=2026-02-25T09%3A06%3A57.737832%2B00%3A00&limit=60&timeframe=1Min&feed=iex&symbols=QH (Caused by NameResolutionError("HTTPSConnection(host='data.alpaca.markets', port=443): Failed to resolve 'data.alpaca.markets' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-02-25 17:06:57,744 [WARNING] strategy: No bar data for QH.
+2026-02-25 17:07:27,986 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 17:07:27,994 [WARNING] data_feed: Failed to get bars for QH: HTTPSConnectionPool(host='data.alpaca.markets', port=443): Max retries exceeded with url: /v2/stocks/bars?start=2026-02-25T09%3A07%3A27.987478%2B00%3A00&limit=60&timeframe=1Min&feed=iex&symbols=QH (Caused by NameResolutionError("HTTPSConnection(host='data.alpaca.markets', port=443): Failed to resolve 'data.alpaca.markets' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-02-25 17:07:27,994 [WARNING] strategy: No bar data for QH.
+2026-02-25 17:07:58,232 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 17:07:58,239 [WARNING] data_feed: Failed to get bars for QH: HTTPSConnectionPool(host='data.alpaca.markets', port=443): Max retries exceeded with url: /v2/stocks/bars?start=2026-02-25T09%3A07%3A58.233407%2B00%3A00&limit=60&timeframe=1Min&feed=iex&symbols=QH (Caused by NameResolutionError("HTTPSConnection(host='data.alpaca.markets', port=443): Failed to resolve 'data.alpaca.markets' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-02-25 17:07:58,240 [WARNING] strategy: No bar data for QH.
+2026-02-25 17:08:28,475 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 17:08:28,482 [WARNING] data_feed: Failed to get bars for QH: HTTPSConnectionPool(host='data.alpaca.markets', port=443): Max retries exceeded with url: /v2/stocks/bars?start=2026-02-25T09%3A08%3A28.476549%2B00%3A00&limit=60&timeframe=1Min&feed=iex&symbols=QH (Caused by NameResolutionError("HTTPSConnection(host='data.alpaca.markets', port=443): Failed to resolve 'data.alpaca.markets' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-02-25 17:08:28,483 [WARNING] strategy: No bar data for QH.
+2026-02-25 17:08:58,725 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 17:08:58,733 [WARNING] data_feed: Failed to get bars for QH: HTTPSConnectionPool(host='data.alpaca.markets', port=443): Max retries exceeded with url: /v2/stocks/bars?start=2026-02-25T09%3A08%3A58.726342%2B00%3A00&limit=60&timeframe=1Min&feed=iex&symbols=QH (Caused by NameResolutionError("HTTPSConnection(host='data.alpaca.markets', port=443): Failed to resolve 'data.alpaca.markets' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-02-25 17:08:58,734 [WARNING] strategy: No bar data for QH.
+2026-02-25 17:09:28,974 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 17:09:28,981 [WARNING] data_feed: Failed to get bars for QH: HTTPSConnectionPool(host='data.alpaca.markets', port=443): Max retries exceeded with url: /v2/stocks/bars?start=2026-02-25T09%3A09%3A28.975187%2B00%3A00&limit=60&timeframe=1Min&feed=iex&symbols=QH (Caused by NameResolutionError("HTTPSConnection(host='data.alpaca.markets', port=443): Failed to resolve 'data.alpaca.markets' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-02-25 17:09:28,982 [WARNING] strategy: No bar data for QH.
+2026-02-25 17:09:59,224 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 17:09:59,233 [WARNING] data_feed: Failed to get bars for QH: HTTPSConnectionPool(host='data.alpaca.markets', port=443): Max retries exceeded with url: /v2/stocks/bars?start=2026-02-25T09%3A09%3A59.225911%2B00%3A00&limit=60&timeframe=1Min&feed=iex&symbols=QH (Caused by NameResolutionError("HTTPSConnection(host='data.alpaca.markets', port=443): Failed to resolve 'data.alpaca.markets' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-02-25 17:09:59,234 [WARNING] strategy: No bar data for QH.
+2026-02-25 17:10:29,475 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 17:10:29,484 [WARNING] data_feed: Failed to get bars for QH: HTTPSConnectionPool(host='data.alpaca.markets', port=443): Max retries exceeded with url: /v2/stocks/bars?start=2026-02-25T09%3A10%3A29.478465%2B00%3A00&limit=60&timeframe=1Min&feed=iex&symbols=QH (Caused by NameResolutionError("HTTPSConnection(host='data.alpaca.markets', port=443): Failed to resolve 'data.alpaca.markets' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-02-25 17:10:29,485 [WARNING] strategy: No bar data for QH.
+2026-02-25 17:10:59,725 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 17:10:59,733 [WARNING] data_feed: Failed to get bars for QH: HTTPSConnectionPool(host='data.alpaca.markets', port=443): Max retries exceeded with url: /v2/stocks/bars?start=2026-02-25T09%3A10%3A59.725897%2B00%3A00&limit=60&timeframe=1Min&feed=iex&symbols=QH (Caused by NameResolutionError("HTTPSConnection(host='data.alpaca.markets', port=443): Failed to resolve 'data.alpaca.markets' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-02-25 17:10:59,734 [WARNING] strategy: No bar data for QH.
+2026-02-25 17:11:29,972 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 17:11:29,980 [WARNING] data_feed: Failed to get bars for QH: HTTPSConnectionPool(host='data.alpaca.markets', port=443): Max retries exceeded with url: /v2/stocks/bars?start=2026-02-25T09%3A11%3A29.975184%2B00%3A00&limit=60&timeframe=1Min&feed=iex&symbols=QH (Caused by NameResolutionError("HTTPSConnection(host='data.alpaca.markets', port=443): Failed to resolve 'data.alpaca.markets' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-02-25 17:11:29,981 [WARNING] strategy: No bar data for QH.
+2026-02-25 17:12:00,233 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 17:12:00,240 [WARNING] data_feed: Failed to get bars for QH: HTTPSConnectionPool(host='data.alpaca.markets', port=443): Max retries exceeded with url: /v2/stocks/bars?start=2026-02-25T09%3A12%3A00.235390%2B00%3A00&limit=60&timeframe=1Min&feed=iex&symbols=QH (Caused by NameResolutionError("HTTPSConnection(host='data.alpaca.markets', port=443): Failed to resolve 'data.alpaca.markets' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-02-25 17:12:00,241 [WARNING] strategy: No bar data for QH.
+2026-02-25 17:12:30,482 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 17:12:30,490 [WARNING] data_feed: Failed to get bars for QH: HTTPSConnectionPool(host='data.alpaca.markets', port=443): Max retries exceeded with url: /v2/stocks/bars?start=2026-02-25T09%3A12%3A30.483882%2B00%3A00&limit=60&timeframe=1Min&feed=iex&symbols=QH (Caused by NameResolutionError("HTTPSConnection(host='data.alpaca.markets', port=443): Failed to resolve 'data.alpaca.markets' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-02-25 17:12:30,491 [WARNING] strategy: No bar data for QH.
+2026-02-25 17:13:00,738 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 17:13:00,748 [WARNING] data_feed: Failed to get bars for QH: HTTPSConnectionPool(host='data.alpaca.markets', port=443): Max retries exceeded with url: /v2/stocks/bars?start=2026-02-25T09%3A13%3A00.740722%2B00%3A00&limit=60&timeframe=1Min&feed=iex&symbols=QH (Caused by NameResolutionError("HTTPSConnection(host='data.alpaca.markets', port=443): Failed to resolve 'data.alpaca.markets' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-02-25 17:13:00,749 [WARNING] strategy: No bar data for QH.
+2026-02-25 17:13:31,003 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 17:13:31,010 [WARNING] data_feed: Failed to get bars for QH: HTTPSConnectionPool(host='data.alpaca.markets', port=443): Max retries exceeded with url: /v2/stocks/bars?start=2026-02-25T09%3A13%3A31.003804%2B00%3A00&limit=60&timeframe=1Min&feed=iex&symbols=QH (Caused by NameResolutionError("HTTPSConnection(host='data.alpaca.markets', port=443): Failed to resolve 'data.alpaca.markets' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-02-25 17:13:31,011 [WARNING] strategy: No bar data for QH.
+2026-02-25 17:14:01,281 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 17:14:01,289 [WARNING] data_feed: Failed to get bars for QH: HTTPSConnectionPool(host='data.alpaca.markets', port=443): Max retries exceeded with url: /v2/stocks/bars?start=2026-02-25T09%3A14%3A01.282240%2B00%3A00&limit=60&timeframe=1Min&feed=iex&symbols=QH (Caused by NameResolutionError("HTTPSConnection(host='data.alpaca.markets', port=443): Failed to resolve 'data.alpaca.markets' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-02-25 17:14:01,290 [WARNING] strategy: No bar data for QH.
+2026-02-25 17:14:31,546 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 17:14:31,553 [WARNING] data_feed: Failed to get bars for QH: HTTPSConnectionPool(host='data.alpaca.markets', port=443): Max retries exceeded with url: /v2/stocks/bars?start=2026-02-25T09%3A14%3A31.546922%2B00%3A00&limit=60&timeframe=1Min&feed=iex&symbols=QH (Caused by NameResolutionError("HTTPSConnection(host='data.alpaca.markets', port=443): Failed to resolve 'data.alpaca.markets' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-02-25 17:14:31,554 [WARNING] strategy: No bar data for QH.
+2026-02-25 17:15:01,802 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 17:15:01,810 [WARNING] data_feed: Failed to get bars for QH: HTTPSConnectionPool(host='data.alpaca.markets', port=443): Max retries exceeded with url: /v2/stocks/bars?start=2026-02-25T09%3A15%3A01.803713%2B00%3A00&limit=60&timeframe=1Min&feed=iex&symbols=QH (Caused by NameResolutionError("HTTPSConnection(host='data.alpaca.markets', port=443): Failed to resolve 'data.alpaca.markets' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-02-25 17:15:01,811 [WARNING] strategy: No bar data for QH.
+2026-02-25 17:15:32,057 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 17:15:32,065 [WARNING] data_feed: Failed to get bars for QH: HTTPSConnectionPool(host='data.alpaca.markets', port=443): Max retries exceeded with url: /v2/stocks/bars?start=2026-02-25T09%3A15%3A32.058360%2B00%3A00&limit=60&timeframe=1Min&feed=iex&symbols=QH (Caused by NameResolutionError("HTTPSConnection(host='data.alpaca.markets', port=443): Failed to resolve 'data.alpaca.markets' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-02-25 17:15:32,066 [WARNING] strategy: No bar data for QH.
+2026-02-25 17:16:02,305 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 17:16:02,314 [WARNING] data_feed: Failed to get bars for QH: HTTPSConnectionPool(host='data.alpaca.markets', port=443): Max retries exceeded with url: /v2/stocks/bars?start=2026-02-25T09%3A16%3A02.307903%2B00%3A00&limit=60&timeframe=1Min&feed=iex&symbols=QH (Caused by NameResolutionError("HTTPSConnection(host='data.alpaca.markets', port=443): Failed to resolve 'data.alpaca.markets' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-02-25 17:16:02,315 [WARNING] strategy: No bar data for QH.
+2026-02-25 17:16:32,538 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 17:16:32,547 [WARNING] data_feed: Failed to get bars for QH: HTTPSConnectionPool(host='data.alpaca.markets', port=443): Max retries exceeded with url: /v2/stocks/bars?start=2026-02-25T09%3A16%3A32.539843%2B00%3A00&limit=60&timeframe=1Min&feed=iex&symbols=QH (Caused by NameResolutionError("HTTPSConnection(host='data.alpaca.markets', port=443): Failed to resolve 'data.alpaca.markets' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-02-25 17:16:32,548 [WARNING] strategy: No bar data for QH.
+2026-02-25 17:17:02,785 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 17:17:02,793 [WARNING] data_feed: Failed to get bars for QH: HTTPSConnectionPool(host='data.alpaca.markets', port=443): Max retries exceeded with url: /v2/stocks/bars?start=2026-02-25T09%3A17%3A02.787030%2B00%3A00&limit=60&timeframe=1Min&feed=iex&symbols=QH (Caused by NameResolutionError("HTTPSConnection(host='data.alpaca.markets', port=443): Failed to resolve 'data.alpaca.markets' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-02-25 17:17:02,794 [WARNING] strategy: No bar data for QH.
+2026-02-25 17:17:33,046 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 17:17:33,053 [WARNING] data_feed: Failed to get bars for QH: HTTPSConnectionPool(host='data.alpaca.markets', port=443): Max retries exceeded with url: /v2/stocks/bars?start=2026-02-25T09%3A17%3A33.048485%2B00%3A00&limit=60&timeframe=1Min&feed=iex&symbols=QH (Caused by NameResolutionError("HTTPSConnection(host='data.alpaca.markets', port=443): Failed to resolve 'data.alpaca.markets' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-02-25 17:17:33,054 [WARNING] strategy: No bar data for QH.
+2026-02-25 17:18:03,301 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 17:18:03,309 [WARNING] data_feed: Failed to get bars for QH: HTTPSConnectionPool(host='data.alpaca.markets', port=443): Max retries exceeded with url: /v2/stocks/bars?start=2026-02-25T09%3A18%3A03.303330%2B00%3A00&limit=60&timeframe=1Min&feed=iex&symbols=QH (Caused by NameResolutionError("HTTPSConnection(host='data.alpaca.markets', port=443): Failed to resolve 'data.alpaca.markets' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-02-25 17:18:03,310 [WARNING] strategy: No bar data for QH.
+2026-02-25 17:18:33,554 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 17:18:33,563 [WARNING] data_feed: Failed to get bars for QH: HTTPSConnectionPool(host='data.alpaca.markets', port=443): Max retries exceeded with url: /v2/stocks/bars?start=2026-02-25T09%3A18%3A33.555150%2B00%3A00&limit=60&timeframe=1Min&feed=iex&symbols=QH (Caused by NameResolutionError("HTTPSConnection(host='data.alpaca.markets', port=443): Failed to resolve 'data.alpaca.markets' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-02-25 17:18:33,564 [WARNING] strategy: No bar data for QH.
+2026-02-25 17:19:03,809 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 17:19:03,816 [WARNING] data_feed: Failed to get bars for QH: HTTPSConnectionPool(host='data.alpaca.markets', port=443): Max retries exceeded with url: /v2/stocks/bars?start=2026-02-25T09%3A19%3A03.810247%2B00%3A00&limit=60&timeframe=1Min&feed=iex&symbols=QH (Caused by NameResolutionError("HTTPSConnection(host='data.alpaca.markets', port=443): Failed to resolve 'data.alpaca.markets' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-02-25 17:19:03,817 [WARNING] strategy: No bar data for QH.
+2026-02-25 17:19:34,068 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 17:19:34,077 [WARNING] data_feed: Failed to get bars for QH: HTTPSConnectionPool(host='data.alpaca.markets', port=443): Max retries exceeded with url: /v2/stocks/bars?start=2026-02-25T09%3A19%3A34.070266%2B00%3A00&limit=60&timeframe=1Min&feed=iex&symbols=QH (Caused by NameResolutionError("HTTPSConnection(host='data.alpaca.markets', port=443): Failed to resolve 'data.alpaca.markets' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-02-25 17:19:34,078 [WARNING] strategy: No bar data for QH.
+2026-02-25 17:20:04,321 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 17:20:04,330 [WARNING] data_feed: Failed to get bars for QH: HTTPSConnectionPool(host='data.alpaca.markets', port=443): Max retries exceeded with url: /v2/stocks/bars?start=2026-02-25T09%3A20%3A04.323529%2B00%3A00&limit=60&timeframe=1Min&feed=iex&symbols=QH (Caused by NameResolutionError("HTTPSConnection(host='data.alpaca.markets', port=443): Failed to resolve 'data.alpaca.markets' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-02-25 17:20:04,332 [WARNING] strategy: No bar data for QH.
+2026-02-25 17:20:34,580 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 17:20:34,589 [WARNING] data_feed: Failed to get bars for QH: HTTPSConnectionPool(host='data.alpaca.markets', port=443): Max retries exceeded with url: /v2/stocks/bars?start=2026-02-25T09%3A20%3A34.582698%2B00%3A00&limit=60&timeframe=1Min&feed=iex&symbols=QH (Caused by NameResolutionError("HTTPSConnection(host='data.alpaca.markets', port=443): Failed to resolve 'data.alpaca.markets' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-02-25 17:20:34,590 [WARNING] strategy: No bar data for QH.
+2026-02-25 17:21:04,847 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 17:21:04,855 [WARNING] data_feed: Failed to get bars for QH: HTTPSConnectionPool(host='data.alpaca.markets', port=443): Max retries exceeded with url: /v2/stocks/bars?start=2026-02-25T09%3A21%3A04.848950%2B00%3A00&limit=60&timeframe=1Min&feed=iex&symbols=QH (Caused by NameResolutionError("HTTPSConnection(host='data.alpaca.markets', port=443): Failed to resolve 'data.alpaca.markets' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-02-25 17:21:04,856 [WARNING] strategy: No bar data for QH.
+2026-02-25 17:21:35,102 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 17:21:35,110 [WARNING] data_feed: Failed to get bars for QH: HTTPSConnectionPool(host='data.alpaca.markets', port=443): Max retries exceeded with url: /v2/stocks/bars?start=2026-02-25T09%3A21%3A35.103438%2B00%3A00&limit=60&timeframe=1Min&feed=iex&symbols=QH (Caused by NameResolutionError("HTTPSConnection(host='data.alpaca.markets', port=443): Failed to resolve 'data.alpaca.markets' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-02-25 17:21:35,110 [WARNING] strategy: No bar data for QH.
+2026-02-25 17:22:05,353 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 17:22:05,361 [WARNING] data_feed: Failed to get bars for QH: HTTPSConnectionPool(host='data.alpaca.markets', port=443): Max retries exceeded with url: /v2/stocks/bars?start=2026-02-25T09%3A22%3A05.354785%2B00%3A00&limit=60&timeframe=1Min&feed=iex&symbols=QH (Caused by NameResolutionError("HTTPSConnection(host='data.alpaca.markets', port=443): Failed to resolve 'data.alpaca.markets' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-02-25 17:22:05,362 [WARNING] strategy: No bar data for QH.
+2026-02-25 17:22:35,624 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 17:22:35,632 [WARNING] data_feed: Failed to get bars for QH: HTTPSConnectionPool(host='data.alpaca.markets', port=443): Max retries exceeded with url: /v2/stocks/bars?start=2026-02-25T09%3A22%3A35.625732%2B00%3A00&limit=60&timeframe=1Min&feed=iex&symbols=QH (Caused by NameResolutionError("HTTPSConnection(host='data.alpaca.markets', port=443): Failed to resolve 'data.alpaca.markets' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-02-25 17:22:35,633 [WARNING] strategy: No bar data for QH.
+2026-02-25 17:23:05,879 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 17:23:05,887 [WARNING] data_feed: Failed to get bars for QH: HTTPSConnectionPool(host='data.alpaca.markets', port=443): Max retries exceeded with url: /v2/stocks/bars?start=2026-02-25T09%3A23%3A05.881486%2B00%3A00&limit=60&timeframe=1Min&feed=iex&symbols=QH (Caused by NameResolutionError("HTTPSConnection(host='data.alpaca.markets', port=443): Failed to resolve 'data.alpaca.markets' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-02-25 17:23:05,888 [WARNING] strategy: No bar data for QH.
+2026-02-25 17:23:36,093 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 17:23:36,100 [WARNING] data_feed: Failed to get bars for QH: HTTPSConnectionPool(host='data.alpaca.markets', port=443): Max retries exceeded with url: /v2/stocks/bars?start=2026-02-25T09%3A23%3A36.094511%2B00%3A00&limit=60&timeframe=1Min&feed=iex&symbols=QH (Caused by NameResolutionError("HTTPSConnection(host='data.alpaca.markets', port=443): Failed to resolve 'data.alpaca.markets' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-02-25 17:23:36,101 [WARNING] strategy: No bar data for QH.
+2026-02-25 17:24:06,335 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 17:24:06,342 [WARNING] data_feed: Failed to get bars for QH: HTTPSConnectionPool(host='data.alpaca.markets', port=443): Max retries exceeded with url: /v2/stocks/bars?start=2026-02-25T09%3A24%3A06.336279%2B00%3A00&limit=60&timeframe=1Min&feed=iex&symbols=QH (Caused by NameResolutionError("HTTPSConnection(host='data.alpaca.markets', port=443): Failed to resolve 'data.alpaca.markets' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-02-25 17:24:06,343 [WARNING] strategy: No bar data for QH.
+2026-02-25 17:24:36,587 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 17:24:36,596 [WARNING] data_feed: Failed to get bars for QH: HTTPSConnectionPool(host='data.alpaca.markets', port=443): Max retries exceeded with url: /v2/stocks/bars?start=2026-02-25T09%3A24%3A36.588863%2B00%3A00&limit=60&timeframe=1Min&feed=iex&symbols=QH (Caused by NameResolutionError("HTTPSConnection(host='data.alpaca.markets', port=443): Failed to resolve 'data.alpaca.markets' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-02-25 17:24:36,597 [WARNING] strategy: No bar data for QH.
+2026-02-25 17:25:06,843 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 17:25:06,850 [WARNING] data_feed: Failed to get bars for QH: HTTPSConnectionPool(host='data.alpaca.markets', port=443): Max retries exceeded with url: /v2/stocks/bars?start=2026-02-25T09%3A25%3A06.844299%2B00%3A00&limit=60&timeframe=1Min&feed=iex&symbols=QH (Caused by NameResolutionError("HTTPSConnection(host='data.alpaca.markets', port=443): Failed to resolve 'data.alpaca.markets' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-02-25 17:25:06,851 [WARNING] strategy: No bar data for QH.
+2026-02-25 17:25:37,097 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 17:25:37,105 [WARNING] data_feed: Failed to get bars for QH: HTTPSConnectionPool(host='data.alpaca.markets', port=443): Max retries exceeded with url: /v2/stocks/bars?start=2026-02-25T09%3A25%3A37.098384%2B00%3A00&limit=60&timeframe=1Min&feed=iex&symbols=QH (Caused by NameResolutionError("HTTPSConnection(host='data.alpaca.markets', port=443): Failed to resolve 'data.alpaca.markets' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-02-25 17:25:37,106 [WARNING] strategy: No bar data for QH.
+2026-02-25 17:26:07,363 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 17:26:07,370 [WARNING] data_feed: Failed to get bars for QH: HTTPSConnectionPool(host='data.alpaca.markets', port=443): Max retries exceeded with url: /v2/stocks/bars?start=2026-02-25T09%3A26%3A07.364083%2B00%3A00&limit=60&timeframe=1Min&feed=iex&symbols=QH (Caused by NameResolutionError("HTTPSConnection(host='data.alpaca.markets', port=443): Failed to resolve 'data.alpaca.markets' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-02-25 17:26:07,371 [WARNING] strategy: No bar data for QH.
+2026-02-25 17:26:37,629 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 17:26:37,638 [WARNING] data_feed: Failed to get bars for QH: HTTPSConnectionPool(host='data.alpaca.markets', port=443): Max retries exceeded with url: /v2/stocks/bars?start=2026-02-25T09%3A26%3A37.630884%2B00%3A00&limit=60&timeframe=1Min&feed=iex&symbols=QH (Caused by NameResolutionError("HTTPSConnection(host='data.alpaca.markets', port=443): Failed to resolve 'data.alpaca.markets' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-02-25 17:26:37,639 [WARNING] strategy: No bar data for QH.
+2026-02-25 17:27:07,885 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 17:27:07,893 [WARNING] data_feed: Failed to get bars for QH: HTTPSConnectionPool(host='data.alpaca.markets', port=443): Max retries exceeded with url: /v2/stocks/bars?start=2026-02-25T09%3A27%3A07.886483%2B00%3A00&limit=60&timeframe=1Min&feed=iex&symbols=QH (Caused by NameResolutionError("HTTPSConnection(host='data.alpaca.markets', port=443): Failed to resolve 'data.alpaca.markets' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-02-25 17:27:07,894 [WARNING] strategy: No bar data for QH.
+2026-02-25 17:27:38,152 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 17:27:38,159 [WARNING] data_feed: Failed to get bars for QH: HTTPSConnectionPool(host='data.alpaca.markets', port=443): Max retries exceeded with url: /v2/stocks/bars?start=2026-02-25T09%3A27%3A38.152665%2B00%3A00&limit=60&timeframe=1Min&feed=iex&symbols=QH (Caused by NameResolutionError("HTTPSConnection(host='data.alpaca.markets', port=443): Failed to resolve 'data.alpaca.markets' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-02-25 17:27:38,161 [WARNING] strategy: No bar data for QH.
+2026-02-25 17:28:08,405 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 17:28:08,414 [WARNING] data_feed: Failed to get bars for QH: HTTPSConnectionPool(host='data.alpaca.markets', port=443): Max retries exceeded with url: /v2/stocks/bars?start=2026-02-25T09%3A28%3A08.407635%2B00%3A00&limit=60&timeframe=1Min&feed=iex&symbols=QH (Caused by NameResolutionError("HTTPSConnection(host='data.alpaca.markets', port=443): Failed to resolve 'data.alpaca.markets' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-02-25 17:28:08,415 [WARNING] strategy: No bar data for QH.
+2026-02-25 17:28:38,673 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 17:28:38,681 [WARNING] data_feed: Failed to get bars for QH: HTTPSConnectionPool(host='data.alpaca.markets', port=443): Max retries exceeded with url: /v2/stocks/bars?start=2026-02-25T09%3A28%3A38.674724%2B00%3A00&limit=60&timeframe=1Min&feed=iex&symbols=QH (Caused by NameResolutionError("HTTPSConnection(host='data.alpaca.markets', port=443): Failed to resolve 'data.alpaca.markets' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-02-25 17:28:38,683 [WARNING] strategy: No bar data for QH.
+2026-02-25 17:29:08,940 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 17:29:08,949 [WARNING] data_feed: Failed to get bars for QH: HTTPSConnectionPool(host='data.alpaca.markets', port=443): Max retries exceeded with url: /v2/stocks/bars?start=2026-02-25T09%3A29%3A08.941601%2B00%3A00&limit=60&timeframe=1Min&feed=iex&symbols=QH (Caused by NameResolutionError("HTTPSConnection(host='data.alpaca.markets', port=443): Failed to resolve 'data.alpaca.markets' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-02-25 17:29:08,950 [WARNING] strategy: No bar data for QH.
+2026-02-25 17:29:39,203 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 17:29:39,212 [WARNING] data_feed: Failed to get bars for QH: HTTPSConnectionPool(host='data.alpaca.markets', port=443): Max retries exceeded with url: /v2/stocks/bars?start=2026-02-25T09%3A29%3A39.204159%2B00%3A00&limit=60&timeframe=1Min&feed=iex&symbols=QH (Caused by NameResolutionError("HTTPSConnection(host='data.alpaca.markets', port=443): Failed to resolve 'data.alpaca.markets' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-02-25 17:29:39,213 [WARNING] strategy: No bar data for QH.
+2026-02-25 17:30:09,469 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 17:30:09,478 [WARNING] data_feed: Failed to get bars for QH: HTTPSConnectionPool(host='data.alpaca.markets', port=443): Max retries exceeded with url: /v2/stocks/bars?start=2026-02-25T09%3A30%3A09.470889%2B00%3A00&limit=60&timeframe=1Min&feed=iex&symbols=QH (Caused by NameResolutionError("HTTPSConnection(host='data.alpaca.markets', port=443): Failed to resolve 'data.alpaca.markets' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-02-25 17:30:09,478 [WARNING] strategy: No bar data for QH.
+2026-02-25 17:30:39,727 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 17:30:39,737 [WARNING] data_feed: Failed to get bars for QH: HTTPSConnectionPool(host='data.alpaca.markets', port=443): Max retries exceeded with url: /v2/stocks/bars?start=2026-02-25T09%3A30%3A39.728856%2B00%3A00&limit=60&timeframe=1Min&feed=iex&symbols=QH (Caused by NameResolutionError("HTTPSConnection(host='data.alpaca.markets', port=443): Failed to resolve 'data.alpaca.markets' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-02-25 17:30:39,738 [WARNING] strategy: No bar data for QH.
+2026-02-25 17:31:09,996 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 17:31:10,004 [WARNING] data_feed: Failed to get bars for QH: HTTPSConnectionPool(host='data.alpaca.markets', port=443): Max retries exceeded with url: /v2/stocks/bars?start=2026-02-25T09%3A31%3A09.997300%2B00%3A00&limit=60&timeframe=1Min&feed=iex&symbols=QH (Caused by NameResolutionError("HTTPSConnection(host='data.alpaca.markets', port=443): Failed to resolve 'data.alpaca.markets' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-02-25 17:31:10,005 [WARNING] strategy: No bar data for QH.
+2026-02-25 17:31:40,240 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 17:31:40,248 [WARNING] data_feed: Failed to get bars for QH: HTTPSConnectionPool(host='data.alpaca.markets', port=443): Max retries exceeded with url: /v2/stocks/bars?start=2026-02-25T09%3A31%3A40.241486%2B00%3A00&limit=60&timeframe=1Min&feed=iex&symbols=QH (Caused by NameResolutionError("HTTPSConnection(host='data.alpaca.markets', port=443): Failed to resolve 'data.alpaca.markets' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-02-25 17:31:40,249 [WARNING] strategy: No bar data for QH.
+2026-02-25 17:32:10,501 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 17:32:10,509 [WARNING] data_feed: Failed to get bars for QH: HTTPSConnectionPool(host='data.alpaca.markets', port=443): Max retries exceeded with url: /v2/stocks/bars?start=2026-02-25T09%3A32%3A10.502733%2B00%3A00&limit=60&timeframe=1Min&feed=iex&symbols=QH (Caused by NameResolutionError("HTTPSConnection(host='data.alpaca.markets', port=443): Failed to resolve 'data.alpaca.markets' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-02-25 17:32:10,509 [WARNING] strategy: No bar data for QH.
+2026-02-25 17:32:40,755 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 17:32:40,761 [WARNING] data_feed: Failed to get bars for QH: HTTPSConnectionPool(host='data.alpaca.markets', port=443): Max retries exceeded with url: /v2/stocks/bars?start=2026-02-25T09%3A32%3A40.756257%2B00%3A00&limit=60&timeframe=1Min&feed=iex&symbols=QH (Caused by NameResolutionError("HTTPSConnection(host='data.alpaca.markets', port=443): Failed to resolve 'data.alpaca.markets' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-02-25 17:32:40,762 [WARNING] strategy: No bar data for QH.
+2026-02-25 17:33:11,006 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 17:33:11,016 [WARNING] data_feed: Failed to get bars for QH: HTTPSConnectionPool(host='data.alpaca.markets', port=443): Max retries exceeded with url: /v2/stocks/bars?start=2026-02-25T09%3A33%3A11.007860%2B00%3A00&limit=60&timeframe=1Min&feed=iex&symbols=QH (Caused by NameResolutionError("HTTPSConnection(host='data.alpaca.markets', port=443): Failed to resolve 'data.alpaca.markets' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-02-25 17:33:11,017 [WARNING] strategy: No bar data for QH.
+2026-02-25 17:33:41,259 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 17:33:41,265 [WARNING] data_feed: Failed to get bars for QH: HTTPSConnectionPool(host='data.alpaca.markets', port=443): Max retries exceeded with url: /v2/stocks/bars?start=2026-02-25T09%3A33%3A41.259918%2B00%3A00&limit=60&timeframe=1Min&feed=iex&symbols=QH (Caused by NameResolutionError("HTTPSConnection(host='data.alpaca.markets', port=443): Failed to resolve 'data.alpaca.markets' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-02-25 17:33:41,266 [WARNING] strategy: No bar data for QH.
+2026-02-25 17:34:11,520 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 17:34:11,528 [WARNING] data_feed: Failed to get bars for QH: HTTPSConnectionPool(host='data.alpaca.markets', port=443): Max retries exceeded with url: /v2/stocks/bars?start=2026-02-25T09%3A34%3A11.521257%2B00%3A00&limit=60&timeframe=1Min&feed=iex&symbols=QH (Caused by NameResolutionError("HTTPSConnection(host='data.alpaca.markets', port=443): Failed to resolve 'data.alpaca.markets' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-02-25 17:34:11,529 [WARNING] strategy: No bar data for QH.
+2026-02-25 17:34:41,773 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 17:34:41,780 [WARNING] data_feed: Failed to get bars for QH: HTTPSConnectionPool(host='data.alpaca.markets', port=443): Max retries exceeded with url: /v2/stocks/bars?start=2026-02-25T09%3A34%3A41.774090%2B00%3A00&limit=60&timeframe=1Min&feed=iex&symbols=QH (Caused by NameResolutionError("HTTPSConnection(host='data.alpaca.markets', port=443): Failed to resolve 'data.alpaca.markets' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-02-25 17:34:41,781 [WARNING] strategy: No bar data for QH.
+2026-02-25 17:35:12,028 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 17:35:12,036 [WARNING] data_feed: Failed to get bars for QH: HTTPSConnectionPool(host='data.alpaca.markets', port=443): Max retries exceeded with url: /v2/stocks/bars?start=2026-02-25T09%3A35%3A12.029755%2B00%3A00&limit=60&timeframe=1Min&feed=iex&symbols=QH (Caused by NameResolutionError("HTTPSConnection(host='data.alpaca.markets', port=443): Failed to resolve 'data.alpaca.markets' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-02-25 17:35:12,037 [WARNING] strategy: No bar data for QH.
+2026-02-25 17:35:42,288 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 17:35:42,297 [WARNING] data_feed: Failed to get bars for QH: HTTPSConnectionPool(host='data.alpaca.markets', port=443): Max retries exceeded with url: /v2/stocks/bars?start=2026-02-25T09%3A35%3A42.289636%2B00%3A00&limit=60&timeframe=1Min&feed=iex&symbols=QH (Caused by NameResolutionError("HTTPSConnection(host='data.alpaca.markets', port=443): Failed to resolve 'data.alpaca.markets' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-02-25 17:35:42,298 [WARNING] strategy: No bar data for QH.
+2026-02-25 17:36:12,555 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 17:36:12,563 [WARNING] data_feed: Failed to get bars for QH: HTTPSConnectionPool(host='data.alpaca.markets', port=443): Max retries exceeded with url: /v2/stocks/bars?start=2026-02-25T09%3A36%3A12.558245%2B00%3A00&limit=60&timeframe=1Min&feed=iex&symbols=QH (Caused by NameResolutionError("HTTPSConnection(host='data.alpaca.markets', port=443): Failed to resolve 'data.alpaca.markets' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-02-25 17:36:12,563 [WARNING] strategy: No bar data for QH.
+2026-02-25 17:36:42,837 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 17:36:42,844 [WARNING] data_feed: Failed to get bars for QH: HTTPSConnectionPool(host='data.alpaca.markets', port=443): Max retries exceeded with url: /v2/stocks/bars?start=2026-02-25T09%3A36%3A42.838530%2B00%3A00&limit=60&timeframe=1Min&feed=iex&symbols=QH (Caused by NameResolutionError("HTTPSConnection(host='data.alpaca.markets', port=443): Failed to resolve 'data.alpaca.markets' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-02-25 17:36:42,845 [WARNING] strategy: No bar data for QH.
+2026-02-25 17:37:13,092 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 17:37:13,101 [WARNING] data_feed: Failed to get bars for QH: HTTPSConnectionPool(host='data.alpaca.markets', port=443): Max retries exceeded with url: /v2/stocks/bars?start=2026-02-25T09%3A37%3A13.093858%2B00%3A00&limit=60&timeframe=1Min&feed=iex&symbols=QH (Caused by NameResolutionError("HTTPSConnection(host='data.alpaca.markets', port=443): Failed to resolve 'data.alpaca.markets' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-02-25 17:37:13,102 [WARNING] strategy: No bar data for QH.
+2026-02-25 17:37:43,369 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 17:37:43,377 [WARNING] data_feed: Failed to get bars for QH: HTTPSConnectionPool(host='data.alpaca.markets', port=443): Max retries exceeded with url: /v2/stocks/bars?start=2026-02-25T09%3A37%3A43.370035%2B00%3A00&limit=60&timeframe=1Min&feed=iex&symbols=QH (Caused by NameResolutionError("HTTPSConnection(host='data.alpaca.markets', port=443): Failed to resolve 'data.alpaca.markets' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-02-25 17:37:43,378 [WARNING] strategy: No bar data for QH.
+2026-02-25 17:38:13,643 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 17:38:13,655 [WARNING] data_feed: Failed to get bars for QH: HTTPSConnectionPool(host='data.alpaca.markets', port=443): Max retries exceeded with url: /v2/stocks/bars?start=2026-02-25T09%3A38%3A13.644681%2B00%3A00&limit=60&timeframe=1Min&feed=iex&symbols=QH (Caused by NameResolutionError("HTTPSConnection(host='data.alpaca.markets', port=443): Failed to resolve 'data.alpaca.markets' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-02-25 17:38:13,656 [WARNING] strategy: No bar data for QH.
+2026-02-25 17:38:43,910 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 17:38:43,918 [WARNING] data_feed: Failed to get bars for QH: HTTPSConnectionPool(host='data.alpaca.markets', port=443): Max retries exceeded with url: /v2/stocks/bars?start=2026-02-25T09%3A38%3A43.911720%2B00%3A00&limit=60&timeframe=1Min&feed=iex&symbols=QH (Caused by NameResolutionError("HTTPSConnection(host='data.alpaca.markets', port=443): Failed to resolve 'data.alpaca.markets' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-02-25 17:38:43,919 [WARNING] strategy: No bar data for QH.
+2026-02-25 17:39:14,154 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 17:39:14,162 [WARNING] data_feed: Failed to get bars for QH: HTTPSConnectionPool(host='data.alpaca.markets', port=443): Max retries exceeded with url: /v2/stocks/bars?start=2026-02-25T09%3A39%3A14.155323%2B00%3A00&limit=60&timeframe=1Min&feed=iex&symbols=QH (Caused by NameResolutionError("HTTPSConnection(host='data.alpaca.markets', port=443): Failed to resolve 'data.alpaca.markets' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-02-25 17:39:14,163 [WARNING] strategy: No bar data for QH.
+2026-02-25 17:39:44,402 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 17:39:44,409 [WARNING] data_feed: Failed to get bars for QH: HTTPSConnectionPool(host='data.alpaca.markets', port=443): Max retries exceeded with url: /v2/stocks/bars?start=2026-02-25T09%3A39%3A44.403460%2B00%3A00&limit=60&timeframe=1Min&feed=iex&symbols=QH (Caused by NameResolutionError("HTTPSConnection(host='data.alpaca.markets', port=443): Failed to resolve 'data.alpaca.markets' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-02-25 17:39:44,410 [WARNING] strategy: No bar data for QH.
+2026-02-25 17:40:14,661 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 17:40:14,672 [WARNING] data_feed: Failed to get bars for QH: HTTPSConnectionPool(host='data.alpaca.markets', port=443): Max retries exceeded with url: /v2/stocks/bars?start=2026-02-25T09%3A40%3A14.665968%2B00%3A00&limit=60&timeframe=1Min&feed=iex&symbols=QH (Caused by NameResolutionError("HTTPSConnection(host='data.alpaca.markets', port=443): Failed to resolve 'data.alpaca.markets' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-02-25 17:40:14,673 [WARNING] strategy: No bar data for QH.
+2026-02-25 17:40:44,920 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 17:40:44,928 [WARNING] data_feed: Failed to get bars for QH: HTTPSConnectionPool(host='data.alpaca.markets', port=443): Max retries exceeded with url: /v2/stocks/bars?start=2026-02-25T09%3A40%3A44.921490%2B00%3A00&limit=60&timeframe=1Min&feed=iex&symbols=QH (Caused by NameResolutionError("HTTPSConnection(host='data.alpaca.markets', port=443): Failed to resolve 'data.alpaca.markets' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-02-25 17:40:44,929 [WARNING] strategy: No bar data for QH.
+2026-02-25 17:41:15,159 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 17:41:15,168 [WARNING] data_feed: Failed to get bars for QH: HTTPSConnectionPool(host='data.alpaca.markets', port=443): Max retries exceeded with url: /v2/stocks/bars?start=2026-02-25T09%3A41%3A15.160618%2B00%3A00&limit=60&timeframe=1Min&feed=iex&symbols=QH (Caused by NameResolutionError("HTTPSConnection(host='data.alpaca.markets', port=443): Failed to resolve 'data.alpaca.markets' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-02-25 17:41:15,169 [WARNING] strategy: No bar data for QH.
+2026-02-25 17:41:45,424 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 17:41:45,431 [WARNING] data_feed: Failed to get bars for QH: HTTPSConnectionPool(host='data.alpaca.markets', port=443): Max retries exceeded with url: /v2/stocks/bars?start=2026-02-25T09%3A41%3A45.425614%2B00%3A00&limit=60&timeframe=1Min&feed=iex&symbols=QH (Caused by NameResolutionError("HTTPSConnection(host='data.alpaca.markets', port=443): Failed to resolve 'data.alpaca.markets' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-02-25 17:41:45,432 [WARNING] strategy: No bar data for QH.
+2026-02-25 17:42:15,660 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 17:42:15,670 [WARNING] data_feed: Failed to get bars for QH: HTTPSConnectionPool(host='data.alpaca.markets', port=443): Max retries exceeded with url: /v2/stocks/bars?start=2026-02-25T09%3A42%3A15.661904%2B00%3A00&limit=60&timeframe=1Min&feed=iex&symbols=QH (Caused by NameResolutionError("HTTPSConnection(host='data.alpaca.markets', port=443): Failed to resolve 'data.alpaca.markets' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-02-25 17:42:15,671 [WARNING] strategy: No bar data for QH.
+2026-02-25 17:42:45,909 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 17:42:45,916 [WARNING] data_feed: Failed to get bars for QH: HTTPSConnectionPool(host='data.alpaca.markets', port=443): Max retries exceeded with url: /v2/stocks/bars?start=2026-02-25T09%3A42%3A45.909834%2B00%3A00&limit=60&timeframe=1Min&feed=iex&symbols=QH (Caused by NameResolutionError("HTTPSConnection(host='data.alpaca.markets', port=443): Failed to resolve 'data.alpaca.markets' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-02-25 17:42:45,916 [WARNING] strategy: No bar data for QH.
+2026-02-25 17:43:16,169 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 17:43:16,179 [WARNING] data_feed: Failed to get bars for QH: HTTPSConnectionPool(host='data.alpaca.markets', port=443): Max retries exceeded with url: /v2/stocks/bars?start=2026-02-25T09%3A43%3A16.170044%2B00%3A00&limit=60&timeframe=1Min&feed=iex&symbols=QH (Caused by NameResolutionError("HTTPSConnection(host='data.alpaca.markets', port=443): Failed to resolve 'data.alpaca.markets' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-02-25 17:43:16,180 [WARNING] strategy: No bar data for QH.
+2026-02-25 17:43:46,427 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 17:43:46,434 [WARNING] data_feed: Failed to get bars for QH: HTTPSConnectionPool(host='data.alpaca.markets', port=443): Max retries exceeded with url: /v2/stocks/bars?start=2026-02-25T09%3A43%3A46.428468%2B00%3A00&limit=60&timeframe=1Min&feed=iex&symbols=QH (Caused by NameResolutionError("HTTPSConnection(host='data.alpaca.markets', port=443): Failed to resolve 'data.alpaca.markets' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-02-25 17:43:46,435 [WARNING] strategy: No bar data for QH.
+2026-02-25 17:44:16,678 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 17:44:16,685 [WARNING] data_feed: Failed to get bars for QH: HTTPSConnectionPool(host='data.alpaca.markets', port=443): Max retries exceeded with url: /v2/stocks/bars?start=2026-02-25T09%3A44%3A16.679244%2B00%3A00&limit=60&timeframe=1Min&feed=iex&symbols=QH (Caused by NameResolutionError("HTTPSConnection(host='data.alpaca.markets', port=443): Failed to resolve 'data.alpaca.markets' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-02-25 17:44:16,686 [WARNING] strategy: No bar data for QH.
+2026-02-25 17:44:46,946 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 17:44:46,953 [WARNING] data_feed: Failed to get bars for QH: HTTPSConnectionPool(host='data.alpaca.markets', port=443): Max retries exceeded with url: /v2/stocks/bars?start=2026-02-25T09%3A44%3A46.947627%2B00%3A00&limit=60&timeframe=1Min&feed=iex&symbols=QH (Caused by NameResolutionError("HTTPSConnection(host='data.alpaca.markets', port=443): Failed to resolve 'data.alpaca.markets' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-02-25 17:44:46,954 [WARNING] strategy: No bar data for QH.
+2026-02-25 17:45:17,203 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 17:45:17,212 [WARNING] data_feed: Failed to get bars for QH: HTTPSConnectionPool(host='data.alpaca.markets', port=443): Max retries exceeded with url: /v2/stocks/bars?start=2026-02-25T09%3A45%3A17.204989%2B00%3A00&limit=60&timeframe=1Min&feed=iex&symbols=QH (Caused by NameResolutionError("HTTPSConnection(host='data.alpaca.markets', port=443): Failed to resolve 'data.alpaca.markets' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-02-25 17:45:17,212 [WARNING] strategy: No bar data for QH.
+2026-02-25 17:45:47,449 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 17:45:47,458 [WARNING] data_feed: Failed to get bars for QH: HTTPSConnectionPool(host='data.alpaca.markets', port=443): Max retries exceeded with url: /v2/stocks/bars?start=2026-02-25T09%3A45%3A47.450317%2B00%3A00&limit=60&timeframe=1Min&feed=iex&symbols=QH (Caused by NameResolutionError("HTTPSConnection(host='data.alpaca.markets', port=443): Failed to resolve 'data.alpaca.markets' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-02-25 17:45:47,459 [WARNING] strategy: No bar data for QH.
+2026-02-25 17:46:17,708 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 17:46:17,716 [WARNING] data_feed: Failed to get bars for QH: HTTPSConnectionPool(host='data.alpaca.markets', port=443): Max retries exceeded with url: /v2/stocks/bars?start=2026-02-25T09%3A46%3A17.709581%2B00%3A00&limit=60&timeframe=1Min&feed=iex&symbols=QH (Caused by NameResolutionError("HTTPSConnection(host='data.alpaca.markets', port=443): Failed to resolve 'data.alpaca.markets' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-02-25 17:46:17,717 [WARNING] strategy: No bar data for QH.
+2026-02-25 17:46:47,951 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 17:46:47,959 [WARNING] data_feed: Failed to get bars for QH: HTTPSConnectionPool(host='data.alpaca.markets', port=443): Max retries exceeded with url: /v2/stocks/bars?start=2026-02-25T09%3A46%3A47.952378%2B00%3A00&limit=60&timeframe=1Min&feed=iex&symbols=QH (Caused by NameResolutionError("HTTPSConnection(host='data.alpaca.markets', port=443): Failed to resolve 'data.alpaca.markets' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-02-25 17:46:47,960 [WARNING] strategy: No bar data for QH.
+2026-02-25 17:47:18,210 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 17:47:18,219 [WARNING] data_feed: Failed to get bars for QH: HTTPSConnectionPool(host='data.alpaca.markets', port=443): Max retries exceeded with url: /v2/stocks/bars?start=2026-02-25T09%3A47%3A18.211363%2B00%3A00&limit=60&timeframe=1Min&feed=iex&symbols=QH (Caused by NameResolutionError("HTTPSConnection(host='data.alpaca.markets', port=443): Failed to resolve 'data.alpaca.markets' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-02-25 17:47:18,220 [WARNING] strategy: No bar data for QH.
+2026-02-25 17:47:48,474 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 17:47:48,482 [WARNING] data_feed: Failed to get bars for QH: HTTPSConnectionPool(host='data.alpaca.markets', port=443): Max retries exceeded with url: /v2/stocks/bars?start=2026-02-25T09%3A47%3A48.475310%2B00%3A00&limit=60&timeframe=1Min&feed=iex&symbols=QH (Caused by NameResolutionError("HTTPSConnection(host='data.alpaca.markets', port=443): Failed to resolve 'data.alpaca.markets' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-02-25 17:47:48,483 [WARNING] strategy: No bar data for QH.
+2026-02-25 17:48:18,724 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 17:48:18,731 [WARNING] data_feed: Failed to get bars for QH: HTTPSConnectionPool(host='data.alpaca.markets', port=443): Max retries exceeded with url: /v2/stocks/bars?start=2026-02-25T09%3A48%3A18.725072%2B00%3A00&limit=60&timeframe=1Min&feed=iex&symbols=QH (Caused by NameResolutionError("HTTPSConnection(host='data.alpaca.markets', port=443): Failed to resolve 'data.alpaca.markets' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-02-25 17:48:18,732 [WARNING] strategy: No bar data for QH.
+2026-02-25 17:48:48,973 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 17:48:48,978 [WARNING] data_feed: Failed to get bars for QH: HTTPSConnectionPool(host='data.alpaca.markets', port=443): Max retries exceeded with url: /v2/stocks/bars?start=2026-02-25T09%3A48%3A48.973668%2B00%3A00&limit=60&timeframe=1Min&feed=iex&symbols=QH (Caused by NameResolutionError("HTTPSConnection(host='data.alpaca.markets', port=443): Failed to resolve 'data.alpaca.markets' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-02-25 17:48:48,979 [WARNING] strategy: No bar data for QH.
+2026-02-25 17:49:19,218 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 17:49:19,225 [WARNING] data_feed: Failed to get bars for QH: HTTPSConnectionPool(host='data.alpaca.markets', port=443): Max retries exceeded with url: /v2/stocks/bars?start=2026-02-25T09%3A49%3A19.218993%2B00%3A00&limit=60&timeframe=1Min&feed=iex&symbols=QH (Caused by NameResolutionError("HTTPSConnection(host='data.alpaca.markets', port=443): Failed to resolve 'data.alpaca.markets' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-02-25 17:49:19,225 [WARNING] strategy: No bar data for QH.
+2026-02-25 17:49:49,417 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 17:49:50,373 [INFO] strategy: No qualifying setup found for QH.
+2026-02-25 17:50:20,470 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 17:50:20,646 [INFO] patterns: Best setup found: Opening Range Breakout | Entry=$1.09 Stop=$0.85 Target=$1.57 R:R=2.0 Conf=65%
+2026-02-25 17:50:20,646 [INFO] strategy: Setup found: Opening Range Breakout | Entry=$1.09 Stop=$0.85 Target=$1.57 R:R=2.0 Conf=65%
+2026-02-25 17:50:20,646 [WARNING] strategy: Trade rejected: R:R is 2.0x — minimum is 2x. Skip this trade.
+2026-02-25 17:50:50,758 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 17:50:50,922 [INFO] patterns: Best setup found: Opening Range Breakout | Entry=$1.09 Stop=$0.85 Target=$1.57 R:R=2.0 Conf=65%
+2026-02-25 17:50:50,922 [INFO] strategy: Setup found: Opening Range Breakout | Entry=$1.09 Stop=$0.85 Target=$1.57 R:R=2.0 Conf=65%
+2026-02-25 17:50:50,922 [WARNING] strategy: Trade rejected: R:R is 2.0x — minimum is 2x. Skip this trade.
+2026-02-25 17:51:21,107 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 17:51:21,298 [INFO] patterns: Best setup found: Opening Range Breakout | Entry=$1.09 Stop=$0.85 Target=$1.57 R:R=2.0 Conf=65%
+2026-02-25 17:51:21,299 [INFO] strategy: Setup found: Opening Range Breakout | Entry=$1.09 Stop=$0.85 Target=$1.57 R:R=2.0 Conf=65%
+2026-02-25 17:51:21,299 [WARNING] strategy: Trade rejected: R:R is 2.0x — minimum is 2x. Skip this trade.
+2026-02-25 17:51:51,539 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 17:51:51,776 [INFO] patterns: Best setup found: Opening Range Breakout | Entry=$1.09 Stop=$0.85 Target=$1.57 R:R=2.0 Conf=65%
+2026-02-25 17:51:51,777 [INFO] strategy: Setup found: Opening Range Breakout | Entry=$1.09 Stop=$0.85 Target=$1.57 R:R=2.0 Conf=65%
+2026-02-25 17:51:51,777 [WARNING] strategy: Trade rejected: R:R is 2.0x — minimum is 2x. Skip this trade.
+2026-02-25 17:52:22,032 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 17:52:22,204 [INFO] strategy: No qualifying setup found for QH.
+2026-02-25 17:52:52,458 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 17:52:52,655 [INFO] strategy: No qualifying setup found for QH.
+2026-02-25 17:53:22,898 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 17:53:23,085 [INFO] patterns: Best setup found: Opening Range Breakout | Entry=$1.09 Stop=$0.85 Target=$1.57 R:R=2.0 Conf=65%
+2026-02-25 17:53:23,085 [INFO] strategy: Setup found: Opening Range Breakout | Entry=$1.09 Stop=$0.85 Target=$1.57 R:R=2.0 Conf=65%
+2026-02-25 17:53:23,085 [WARNING] strategy: Trade rejected: R:R is 2.0x — minimum is 2x. Skip this trade.
+2026-02-25 17:53:53,324 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 17:53:53,516 [INFO] patterns: Best setup found: Opening Range Breakout | Entry=$1.09 Stop=$0.85 Target=$1.57 R:R=2.0 Conf=65%
+2026-02-25 17:53:53,517 [INFO] strategy: Setup found: Opening Range Breakout | Entry=$1.09 Stop=$0.85 Target=$1.57 R:R=2.0 Conf=65%
+2026-02-25 17:53:53,517 [WARNING] strategy: Trade rejected: R:R is 2.0x — minimum is 2x. Skip this trade.
+2026-02-25 17:54:23,779 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 17:54:23,957 [INFO] patterns: Best setup found: Opening Range Breakout | Entry=$1.09 Stop=$0.85 Target=$1.57 R:R=2.0 Conf=65%
+2026-02-25 17:54:23,957 [INFO] strategy: Setup found: Opening Range Breakout | Entry=$1.09 Stop=$0.85 Target=$1.57 R:R=2.0 Conf=65%
+2026-02-25 17:54:23,957 [WARNING] strategy: Trade rejected: R:R is 2.0x — minimum is 2x. Skip this trade.
+2026-02-25 17:54:54,188 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 17:54:54,401 [INFO] patterns: Best setup found: Opening Range Breakout | Entry=$1.09 Stop=$0.85 Target=$1.57 R:R=2.0 Conf=65%
+2026-02-25 17:54:54,401 [INFO] strategy: Setup found: Opening Range Breakout | Entry=$1.09 Stop=$0.85 Target=$1.57 R:R=2.0 Conf=65%
+2026-02-25 17:54:54,401 [WARNING] strategy: Trade rejected: R:R is 2.0x — minimum is 2x. Skip this trade.
+2026-02-25 17:55:24,637 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 17:55:24,864 [INFO] strategy: No qualifying setup found for QH.
+2026-02-25 17:55:55,091 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 17:55:55,399 [INFO] strategy: No qualifying setup found for QH.
+2026-02-25 17:56:25,654 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 17:56:25,845 [INFO] strategy: No qualifying setup found for QH.
+2026-02-25 17:56:56,100 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 17:56:56,281 [INFO] strategy: No qualifying setup found for QH.
+2026-02-25 17:57:26,521 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 17:57:26,702 [INFO] strategy: No qualifying setup found for QH.
+2026-02-25 17:57:56,948 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 17:57:57,381 [INFO] strategy: No qualifying setup found for QH.
+2026-02-25 17:58:27,633 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 17:58:28,024 [INFO] patterns: Best setup found: Opening Range Breakout | Entry=$1.09 Stop=$0.85 Target=$1.57 R:R=2.0 Conf=65%
+2026-02-25 17:58:28,024 [INFO] strategy: Setup found: Opening Range Breakout | Entry=$1.09 Stop=$0.85 Target=$1.57 R:R=2.0 Conf=65%
+2026-02-25 17:58:28,024 [WARNING] strategy: Trade rejected: R:R is 2.0x — minimum is 2x. Skip this trade.
+2026-02-25 17:58:58,272 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 17:58:58,564 [INFO] patterns: Best setup found: Opening Range Breakout | Entry=$1.09 Stop=$0.85 Target=$1.57 R:R=2.0 Conf=65%
+2026-02-25 17:58:58,564 [INFO] strategy: Setup found: Opening Range Breakout | Entry=$1.09 Stop=$0.85 Target=$1.57 R:R=2.0 Conf=65%
+2026-02-25 17:58:58,564 [WARNING] strategy: Trade rejected: R:R is 2.0x — minimum is 2x. Skip this trade.
+2026-02-25 17:59:28,798 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 17:59:28,974 [INFO] patterns: Best setup found: Opening Range Breakout | Entry=$1.09 Stop=$0.85 Target=$1.57 R:R=2.0 Conf=65%
+2026-02-25 17:59:28,974 [INFO] strategy: Setup found: Opening Range Breakout | Entry=$1.09 Stop=$0.85 Target=$1.57 R:R=2.0 Conf=65%
+2026-02-25 17:59:28,974 [WARNING] strategy: Trade rejected: R:R is 2.0x — minimum is 2x. Skip this trade.
+2026-02-25 17:59:59,228 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 17:59:59,747 [INFO] patterns: Best setup found: Opening Range Breakout | Entry=$1.09 Stop=$0.85 Target=$1.57 R:R=2.0 Conf=65%
+2026-02-25 17:59:59,747 [INFO] strategy: Setup found: Opening Range Breakout | Entry=$1.09 Stop=$0.85 Target=$1.57 R:R=2.0 Conf=65%
+2026-02-25 17:59:59,747 [WARNING] strategy: Trade rejected: R:R is 2.0x — minimum is 2x. Skip this trade.
+2026-02-25 18:00:29,980 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 18:00:30,420 [INFO] patterns: Best setup found: Opening Range Breakout | Entry=$1.09 Stop=$0.85 Target=$1.57 R:R=2.0 Conf=65%
+2026-02-25 18:00:30,420 [INFO] strategy: Setup found: Opening Range Breakout | Entry=$1.09 Stop=$0.85 Target=$1.57 R:R=2.0 Conf=65%
+2026-02-25 18:00:30,420 [WARNING] strategy: Trade rejected: R:R is 2.0x — minimum is 2x. Skip this trade.
+2026-02-25 18:01:00,679 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 18:01:00,909 [INFO] patterns: Best setup found: Opening Range Breakout | Entry=$1.09 Stop=$0.85 Target=$1.57 R:R=2.0 Conf=65%
+2026-02-25 18:01:00,910 [INFO] strategy: Setup found: Opening Range Breakout | Entry=$1.09 Stop=$0.85 Target=$1.57 R:R=2.0 Conf=65%
+2026-02-25 18:01:00,910 [WARNING] strategy: Trade rejected: R:R is 2.0x — minimum is 2x. Skip this trade.
+2026-02-25 18:01:31,167 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 18:01:31,339 [INFO] patterns: Best setup found: Opening Range Breakout | Entry=$1.09 Stop=$0.85 Target=$1.57 R:R=2.0 Conf=65%
+2026-02-25 18:01:31,339 [INFO] strategy: Setup found: Opening Range Breakout | Entry=$1.09 Stop=$0.85 Target=$1.57 R:R=2.0 Conf=65%
+2026-02-25 18:01:31,339 [WARNING] strategy: Trade rejected: R:R is 2.0x — minimum is 2x. Skip this trade.
+2026-02-25 18:02:01,583 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 18:02:01,778 [INFO] strategy: No qualifying setup found for QH.
+2026-02-25 18:02:32,036 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 18:02:32,211 [INFO] strategy: No qualifying setup found for QH.
+2026-02-25 18:03:02,482 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 18:03:02,672 [INFO] strategy: No qualifying setup found for QH.
+2026-02-25 18:03:32,920 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 18:03:33,114 [INFO] strategy: No qualifying setup found for QH.
+2026-02-25 18:04:03,248 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 18:04:03,458 [INFO] strategy: No qualifying setup found for QH.
+2026-02-25 18:04:33,710 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 18:04:33,911 [INFO] strategy: No qualifying setup found for QH.
+2026-02-25 18:05:04,201 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 18:05:04,442 [INFO] strategy: No qualifying setup found for QH.
+2026-02-25 18:05:34,716 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 18:05:34,888 [INFO] strategy: No qualifying setup found for QH.
+2026-02-25 18:06:05,107 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 18:06:05,311 [INFO] strategy: No qualifying setup found for QH.
+2026-02-25 18:06:35,442 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 18:06:35,611 [INFO] strategy: No qualifying setup found for QH.
+2026-02-25 18:07:05,741 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 18:07:05,913 [INFO] strategy: No qualifying setup found for QH.
+2026-02-25 18:07:36,033 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 18:07:36,970 [INFO] strategy: No qualifying setup found for QH.
+2026-02-25 18:08:07,086 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 18:08:07,262 [INFO] strategy: No qualifying setup found for QH.
+2026-02-25 18:08:37,387 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 18:08:37,791 [INFO] strategy: No qualifying setup found for QH.
+2026-02-25 18:09:07,898 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 18:09:08,086 [INFO] strategy: No qualifying setup found for QH.
+2026-02-25 18:09:38,206 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 18:09:38,375 [INFO] strategy: No qualifying setup found for QH.
+2026-02-25 18:10:08,481 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 18:10:08,667 [INFO] strategy: No qualifying setup found for QH.
+2026-02-25 18:10:38,781 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 18:10:38,957 [INFO] strategy: No qualifying setup found for QH.
+2026-02-25 18:11:09,074 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 18:11:09,299 [INFO] strategy: No qualifying setup found for QH.
+2026-02-25 18:11:39,411 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 18:11:39,591 [INFO] strategy: No qualifying setup found for QH.
+2026-02-25 18:12:09,694 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 18:12:09,897 [INFO] strategy: No qualifying setup found for QH.
+2026-02-25 18:12:40,013 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 18:12:40,176 [INFO] strategy: No qualifying setup found for QH.
+2026-02-25 18:13:10,279 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 18:13:10,451 [INFO] strategy: No qualifying setup found for QH.
+2026-02-25 18:13:40,568 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 18:13:40,736 [INFO] strategy: No qualifying setup found for QH.
+2026-02-25 18:14:10,844 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 18:14:11,013 [INFO] strategy: No qualifying setup found for QH.
+2026-02-25 18:14:41,119 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 18:14:41,288 [INFO] strategy: No qualifying setup found for QH.
+2026-02-25 18:15:11,404 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 18:15:11,599 [INFO] strategy: No qualifying setup found for QH.
+2026-02-25 18:15:41,698 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 18:15:41,894 [INFO] strategy: No qualifying setup found for QH.
+2026-02-25 18:16:12,002 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 18:16:12,542 [INFO] strategy: No qualifying setup found for QH.
+2026-02-25 18:16:42,643 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 18:16:42,807 [INFO] strategy: No qualifying setup found for QH.
+2026-02-25 18:17:12,929 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 18:17:13,164 [INFO] strategy: No qualifying setup found for QH.
+2026-02-25 18:17:43,271 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 18:17:43,444 [INFO] strategy: No qualifying setup found for QH.
+2026-02-25 18:18:13,540 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 18:18:13,935 [INFO] strategy: No qualifying setup found for QH.
+2026-02-25 18:18:44,055 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 18:18:44,613 [INFO] strategy: No qualifying setup found for QH.
+2026-02-25 18:19:14,720 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 18:19:14,884 [INFO] strategy: No qualifying setup found for QH.
+2026-02-25 18:19:44,918 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 18:19:45,220 [INFO] strategy: No qualifying setup found for QH.
+2026-02-25 18:20:15,319 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 18:20:15,514 [INFO] strategy: No qualifying setup found for QH.
+2026-02-25 18:20:45,627 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 18:20:45,796 [INFO] strategy: No qualifying setup found for QH.
+2026-02-25 18:21:15,911 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 18:21:16,116 [INFO] strategy: No qualifying setup found for QH.
+2026-02-25 18:21:46,249 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 18:21:46,404 [INFO] strategy: No qualifying setup found for QH.
+2026-02-25 18:22:16,597 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 18:22:16,789 [INFO] strategy: No qualifying setup found for QH.
+2026-02-25 18:22:46,906 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 18:22:47,082 [INFO] strategy: No qualifying setup found for QH.
+2026-02-25 18:23:17,197 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 18:23:17,456 [INFO] strategy: No qualifying setup found for QH.
+2026-02-25 18:23:47,575 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 18:23:47,730 [INFO] strategy: No qualifying setup found for QH.
+2026-02-25 18:24:17,848 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 18:24:18,057 [INFO] strategy: No qualifying setup found for QH.
+2026-02-25 18:24:48,155 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 18:24:48,332 [INFO] strategy: No qualifying setup found for QH.
+2026-02-25 18:25:18,467 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 18:25:18,645 [INFO] strategy: No qualifying setup found for QH.
+2026-02-25 18:25:48,748 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 18:25:49,102 [INFO] strategy: No qualifying setup found for QH.
+2026-02-25 18:26:19,207 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 18:26:19,372 [INFO] strategy: No qualifying setup found for QH.
+2026-02-25 18:26:49,481 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 18:26:49,676 [INFO] strategy: No qualifying setup found for QH.
+2026-02-25 18:27:19,765 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 18:27:19,977 [INFO] strategy: No qualifying setup found for QH.
+2026-02-25 18:27:50,079 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 18:27:50,256 [INFO] strategy: No qualifying setup found for QH.
+2026-02-25 18:28:20,374 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 18:28:20,537 [INFO] strategy: No qualifying setup found for QH.
+2026-02-25 18:28:50,637 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 18:28:50,834 [INFO] strategy: No qualifying setup found for QH.
+2026-02-25 18:29:20,942 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 18:29:21,167 [INFO] strategy: No qualifying setup found for QH.
+2026-02-25 18:29:51,301 [INFO] strategy: Evaluating setup for QH...
+2026-02-25 18:29:51,467 [INFO] strategy: No qualifying setup found for QH.
+2026-02-25 18:30:00,498 [INFO] warrior_bot: ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-02-25 18:30:00,499 [INFO] warrior_bot:   11:30 AM — STOPPING NEW TRADES
+2026-02-25 18:30:00,499 [INFO] warrior_bot:   (Only managing existing position)
+2026-02-25 18:30:00,499 [INFO] warrior_bot: ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-02-25 22:55:00,910 [INFO] warrior_bot: ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-02-25 22:55:00,913 [INFO] warrior_bot:   END OF DAY — CLOSING ALL POSITIONS
+2026-02-25 22:55:00,914 [INFO] warrior_bot: ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-02-25 22:55:00,915 [INFO] broker: Closing ALL positions (end of day)
+2026-02-25 22:55:01,694 [INFO] broker: All open orders cancelled.
+2026-02-26 14:00:00,531 [INFO] warrior_bot: ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-02-26 14:00:00,537 [INFO] warrior_bot:   7:00 AM — PRE-MARKET SCAN
+2026-02-26 14:00:00,538 [INFO] warrior_bot: ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-02-26 14:00:00,538 [INFO] strategy: === PRE-MARKET ROUTINE START ===
+2026-02-26 14:00:00,538 [INFO] risk_manager: New trading day. Max daily loss: $500 | Max risk/trade: $100
+2026-02-26 14:00:00,538 [INFO] scanner: Starting pre-market gapper scan...
+2026-02-26 14:00:00,557 [ERROR] scanner: Failed to fetch asset list: HTTPSConnectionPool(host='paper-api.alpaca.markets', port=443): Max retries exceeded with url: /v2/assets?status=active&asset_class=us_equity (Caused by NameResolutionError("HTTPSConnection(host='paper-api.alpaca.markets', port=443): Failed to resolve 'paper-api.alpaca.markets' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-02-26 14:00:00,558 [ERROR] scanner: No symbols in universe. Check API keys.
+2026-02-26 14:00:00,558 [WARNING] warrior_bot: No candidates found. Will re-scan in 30 min.
+2026-02-26 14:41:30,407 [INFO] broker: Broker initialized (Paper Trading mode)
+2026-02-26 14:41:30,407 [INFO] warrior_bot: ============================================================
+2026-02-26 14:41:30,407 [INFO] warrior_bot:   WARRIOR TRADING BOT — STARTING
+2026-02-26 14:41:30,407 [INFO] warrior_bot:   Strategy: Ross Cameron Gap & Go Momentum
+2026-02-26 14:41:30,407 [INFO] warrior_bot:   Max daily loss: $500.0
+2026-02-26 14:41:30,407 [INFO] warrior_bot:   Max risk/trade: $100.0
+2026-02-26 14:41:30,407 [INFO] warrior_bot:   Mode: PAPER TRADING (no real money)
+2026-02-26 14:41:30,407 [INFO] warrior_bot: ============================================================
+2026-02-26 14:41:31,138 [INFO] warrior_bot: Bot scheduled. Waiting for 14:00 IST (7:00 AM ET)...
+2026-02-26 14:41:31,138 [INFO] warrior_bot: (Press Ctrl+C to stop)
+
+2026-02-26 16:03:56,030 [INFO] ib_insync.client: Connecting to 127.0.0.1:7497 with clientId 1...
+2026-02-26 16:03:56,031 [INFO] ib_insync.client: Connected
+2026-02-26 16:03:56,041 [INFO] ib_insync.client: Logged on to server version 176
+2026-02-26 16:03:56,042 [INFO] ib_insync.wrapper: Warning 2104, reqId -1: Market data farm connection is OK:usfarm.nj
+2026-02-26 16:03:56,043 [INFO] ib_insync.wrapper: Warning 2104, reqId -1: Market data farm connection is OK:usfuture
+2026-02-26 16:03:56,043 [INFO] ib_insync.wrapper: Warning 2104, reqId -1: Market data farm connection is OK:usopt.nj
+2026-02-26 16:03:56,043 [INFO] ib_insync.wrapper: Warning 2104, reqId -1: Market data farm connection is OK:cashfarm
+2026-02-26 16:03:56,043 [INFO] ib_insync.wrapper: Warning 2104, reqId -1: Market data farm connection is OK:usfarm
+2026-02-26 16:03:56,043 [INFO] ib_insync.wrapper: Warning 2106, reqId -1: HMDS data farm connection is OK:euhmds
+2026-02-26 16:03:56,043 [INFO] ib_insync.wrapper: Warning 2106, reqId -1: HMDS data farm connection is OK:fundfarm
+2026-02-26 16:03:56,043 [INFO] ib_insync.wrapper: Warning 2106, reqId -1: HMDS data farm connection is OK:ushmds
+2026-02-26 16:03:56,043 [INFO] ib_insync.wrapper: Warning 2158, reqId -1: Sec-def data farm connection is OK:secdefnj
+2026-02-26 16:03:56,043 [INFO] ib_insync.client: API connection ready
+2026-02-26 16:03:56,044 [INFO] ib_insync.wrapper: position: Position(account='DUQ156710', contract=Stock(conId=265598, symbol='AAPL', exchange='NASDAQ', currency='USD', localSymbol='AAPL', tradingClass='NMS'), position=0.0, avgCost=0.0)
+2026-02-26 16:03:56,350 [INFO] ib_insync.wrapper: updatePortfolio: PortfolioItem(contract=Stock(conId=265598, symbol='AAPL', right='0', primaryExchange='NASDAQ', currency='USD', localSymbol='AAPL', tradingClass='NMS'), position=0.0, marketPrice=274.5299988, marketValue=0.0, averageCost=0.0, unrealizedPNL=0.0, realizedPNL=-2.34, account='DUQ156710')
+2026-02-26 16:03:56,452 [INFO] ib_insync.wrapper: execDetails Execution(execId='00012ec5.69a3a107.01.01', time=datetime.datetime(2026, 2, 26, 13, 43, 47, tzinfo=datetime.timezone.utc), acctNumber='DUQ156710', exchange='BYX', side='BOT', shares=1.0, price=274.64, permId=1131393784, clientId=1, orderId=5, liquidation=0, cumQty=1.0, avgPrice=274.64, orderRef='', evRule='', evMultiplier=0.0, modelCode='', lastLiquidity=2)
+2026-02-26 16:03:56,452 [INFO] ib_insync.wrapper: execDetails Execution(execId='00012ec5.69a3a11c.01.01', time=datetime.datetime(2026, 2, 26, 13, 44, 24, tzinfo=datetime.timezone.utc), acctNumber='DUQ156710', exchange='BYX', side='SLD', shares=1.0, price=274.3, permId=1131393786, clientId=1, orderId=9, liquidation=0, cumQty=1.0, avgPrice=274.3, orderRef='', evRule='', evMultiplier=0.0, modelCode='', lastLiquidity=2)
+2026-02-26 16:03:56,452 [INFO] ib_insync.wrapper: commissionReport: CommissionReport(execId='00012ec5.69a3a107.01.01', commission=1.0, currency='USD', realizedPNL=0.0, yield_=0.0, yieldRedemptionDate=0)
+2026-02-26 16:03:56,452 [INFO] ib_insync.wrapper: commissionReport: CommissionReport(execId='00012ec5.69a3a11c.01.01', commission=1.000195, currency='USD', realizedPNL=-2.340195, yield_=0.0, yieldRedemptionDate=0)
+2026-02-26 16:03:56,453 [INFO] ib_insync.ib: Synchronization complete
+2026-02-26 16:03:56,453 [INFO] broker_ibkr: IBKR Broker initialized (Paper Trading mode)
+2026-02-26 16:03:56,453 [INFO] warrior_bot: ============================================================
+2026-02-26 16:03:56,453 [INFO] warrior_bot:   WARRIOR TRADING BOT — STARTING
+2026-02-26 16:03:56,453 [INFO] warrior_bot:   Strategy: Ross Cameron Gap & Go Momentum
+2026-02-26 16:03:56,453 [INFO] warrior_bot:   Max daily loss: $500.0
+2026-02-26 16:03:56,453 [INFO] warrior_bot:   Max risk/trade: $100.0
+2026-02-26 16:03:56,453 [INFO] warrior_bot:   Mode: PAPER TRADING (no real money)
+2026-02-26 16:03:56,453 [INFO] warrior_bot: ============================================================
+2026-02-26 16:03:57,134 [INFO] warrior_bot: Bot scheduled. Waiting for 14:00 IST (7:00 AM ET)...
+2026-02-26 16:03:57,134 [INFO] warrior_bot: (Press Ctrl+C to stop)
+
+2026-02-26 16:30:00,834 [INFO] warrior_bot: ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-02-26 16:30:00,837 [INFO] warrior_bot:   9:30 AM — MARKET OPEN
+2026-02-26 16:30:00,837 [INFO] warrior_bot: ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-02-26 16:30:00,837 [WARNING] warrior_bot: Watchlist is empty. Running emergency pre-market scan...
+2026-02-26 16:30:00,838 [INFO] scanner: Starting pre-market gapper scan...
+2026-02-26 16:30:02,386 [INFO] scanner: Universe: 10290 tradeable symbols
+2026-02-26 16:30:04,138 [INFO] scanner: Pre-market scan complete. Found 0 candidates.
+2026-02-26 16:30:04,139 [INFO] warrior_bot: Active watchlist: []
+2026-02-26 18:30:00,649 [INFO] warrior_bot: ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-02-26 18:30:00,652 [INFO] warrior_bot:   11:30 AM — STOPPING NEW TRADES
+2026-02-26 18:30:00,653 [INFO] warrior_bot:   (Only managing existing position)
+2026-02-26 18:30:00,653 [INFO] warrior_bot: ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
